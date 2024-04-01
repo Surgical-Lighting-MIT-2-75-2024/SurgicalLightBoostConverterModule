@@ -261,6 +261,259 @@
 				)
 			)
 		)
+		(symbol "Amplifier_Operational:LMV358"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LMV358"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "single opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LMV358_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV358_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV358_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3348,296 +3601,414 @@
 		)
 	)
 	(junction
-		(at 87.63 35.56)
+		(at 232.41 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08f5e908-04b2-478e-8da7-b5b4d2e7e961")
+	)
+	(junction
+		(at 87.63 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b18cc11-816e-4a6b-b608-9ffd2aba88cb")
 	)
 	(junction
-		(at 30.48 123.19)
+		(at 30.48 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12277f58-2188-4f94-a761-c2abf7b9c9e6")
 	)
 	(junction
-		(at 100.33 144.78)
+		(at 115.57 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12d9e4d7-fa2e-4fa5-a154-371080fc050c")
 	)
 	(junction
-		(at 77.47 182.88)
+		(at 77.47 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ac416bf-9f1d-4ba4-b8f1-83cd00a0de45")
 	)
 	(junction
-		(at 39.37 35.56)
+		(at 39.37 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2074f761-60f6-4c0f-ad40-6b79a132286c")
 	)
 	(junction
-		(at 80.01 35.56)
+		(at 80.01 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20a757cd-5b1c-489f-8130-445be26daf7b")
 	)
 	(junction
-		(at 52.07 35.56)
+		(at 52.07 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2117ba02-1f76-460f-975f-0c85258c9611")
 	)
 	(junction
-		(at 138.43 128.27)
+		(at 153.67 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23214df0-4a61-4a80-821d-1132f34df4eb")
 	)
 	(junction
-		(at 147.32 111.76)
+		(at 85.09 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23a23f29-cd41-4086-b47d-11396cb15092")
+	)
+	(junction
+		(at 39.37 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2723492a-1818-48e9-a914-19a0ecdb1acf")
+	)
+	(junction
+		(at 162.56 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2738c638-cca9-457a-9c0b-7878b3f27ab0")
 	)
 	(junction
-		(at 199.39 35.56)
+		(at 199.39 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29d43edc-aa63-4821-8f2e-742e5c7f2317")
 	)
 	(junction
-		(at 63.5 123.19)
+		(at 63.5 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b95958e-c9c5-49a1-aebc-19e3d57a787e")
 	)
 	(junction
-		(at 152.4 134.62)
+		(at 167.64 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33befdab-6b08-4458-bdff-1492f107d677")
 	)
 	(junction
-		(at 147.32 107.95)
+		(at 162.56 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33e84c42-05be-4aac-a21a-dc057737ea1a")
 	)
 	(junction
-		(at 19.05 170.18)
+		(at 64.77 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34ce3111-103b-47a3-a16e-f2808033dd0b")
+	)
+	(junction
+		(at 17.78 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34fec31d-5d3d-48b4-9016-6db1b5be242e")
 	)
 	(junction
-		(at 173.99 35.56)
+		(at 173.99 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ce023b4-9e77-42fd-a165-9e102e3091be")
 	)
 	(junction
-		(at 49.53 171.45)
+		(at 173.99 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4a4f609f-5dfc-4e50-92b8-00774031f9c9")
+		(uuid "469f04e5-ce28-45a7-ba03-e7df7cae8339")
 	)
 	(junction
 		(at 185.42 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
+		(uuid "49c0d7d9-a1fc-43b0-a63d-c63c01d177a7")
+	)
+	(junction
+		(at 49.53 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a4f609f-5dfc-4e50-92b8-00774031f9c9")
+	)
+	(junction
+		(at 52.07 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cd52531-a5ed-41d5-9af7-24145c703a3b")
+	)
+	(junction
+		(at 185.42 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
 		(uuid "569a6d3d-7301-4f12-8788-358ff8549aa4")
 	)
 	(junction
-		(at 114.3 144.78)
+		(at 129.54 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e974386-2d8b-492d-915c-754b0cb928e8")
 	)
 	(junction
-		(at 49.53 166.37)
+		(at 49.53 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f87a08b-8b74-41d9-9492-8afea5e004fe")
 	)
 	(junction
-		(at 105.41 90.17)
+		(at 199.39 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61aa138f-f725-4de9-939b-b6213abbf479")
+	)
+	(junction
+		(at 105.41 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6204d167-dd9c-4e90-b287-1c5adc84b558")
 	)
 	(junction
-		(at 22.86 110.49)
+		(at 95.25 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "66cd1787-2362-49ed-9ca3-fbf859d0c83b")
+		(uuid "653013a9-80a4-4e5c-99e3-94dea7bff012")
 	)
 	(junction
-		(at 97.79 81.28)
+		(at 97.79 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8116694a-d642-4d24-bf1e-27e78fe5d085")
 	)
 	(junction
-		(at 175.26 160.02)
+		(at 190.5 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "863602bc-eabe-44c6-8294-c31962cb293c")
 	)
 	(junction
-		(at 87.63 44.45)
+		(at 87.63 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9395e311-de9e-41ab-b6a9-1c0e180ec0df")
 	)
 	(junction
-		(at 184.15 160.02)
+		(at 199.39 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "959b0bf9-b52f-4987-8246-5215968323e5")
 	)
 	(junction
-		(at 26.67 170.18)
+		(at 25.4 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95a7a086-4a41-4f30-80a3-16a430fdca75")
 	)
 	(junction
-		(at 39.37 123.19)
+		(at 39.37 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fe16856-add6-4265-a8e3-e3f57d81ba13")
 	)
 	(junction
-		(at 72.39 168.91)
+		(at 72.39 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0f1610f-3b23-467c-8e11-dd0657279fed")
 	)
 	(junction
-		(at 100.33 111.76)
+		(at 115.57 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1b7472c-1478-4afc-b33d-3d11a25ec974")
 	)
 	(junction
-		(at 198.12 160.02)
+		(at 213.36 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a28da387-c72d-47d8-9cae-f1b40d3f827c")
 	)
 	(junction
-		(at 81.28 182.88)
+		(at 81.28 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2b6173e-14a2-4cbd-81a4-87f19f4e4d86")
 	)
 	(junction
-		(at 114.3 128.27)
+		(at 49.53 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3eace95-3b98-4f60-b492-17bd19b7b686")
+	)
+	(junction
+		(at 143.51 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acca9e58-5374-4d92-89cf-58f037f5934e")
+	)
+	(junction
+		(at 129.54 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aea2ffd7-413b-4032-af82-df8590914b53")
 	)
 	(junction
-		(at 114.3 55.88)
+		(at 114.3 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0f8586f-d27c-42c0-a2fb-3cd2d9ab98b4")
 	)
 	(junction
-		(at 22.86 123.19)
+		(at 39.37 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1f70e35-6032-4dba-951f-9511487a3db3")
+	)
+	(junction
+		(at 22.86 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2f33e08-4407-43fe-8caf-8a9454e0313c")
 	)
 	(junction
-		(at 156.21 35.56)
+		(at 156.21 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b433aac3-f6cd-4c41-8763-f20cb967463e")
+	)
+	(junction
+		(at 213.36 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5887d6c-aebb-4074-9ec2-5bbefbac3224")
+	)
+	(junction
+		(at 156.21 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b862ebc7-ed9e-4b32-8853-cc303b2b79ef")
 	)
 	(junction
-		(at 29.21 35.56)
+		(at 29.21 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb75da9e-7bf6-40bf-8b5a-e24e128085a5")
 	)
 	(junction
-		(at 64.77 35.56)
+		(at 85.09 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0872904-abca-4c6c-bde1-2e61d9a7f997")
+	)
+	(junction
+		(at 95.25 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c73ed44b-82fb-40f7-9896-edda789dc4dc")
+	)
+	(junction
+		(at 64.77 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9eef071-4f73-4e68-b132-2dacce2d72ca")
 	)
 	(junction
-		(at 90.17 90.17)
+		(at 90.17 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce3682eb-3097-4237-83c7-a4cb047c3a5d")
 	)
 	(junction
-		(at 212.09 137.16)
+		(at 227.33 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cee044f7-f466-4aab-96fd-66e3f329ec34")
 	)
 	(junction
-		(at 143.51 35.56)
+		(at 143.51 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d25baf56-034c-4a77-8150-c44510be3055")
 	)
 	(junction
-		(at 100.33 133.35)
+		(at 115.57 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6b09f21-ac3d-4648-8d61-a1c0d64c89d4")
 	)
 	(junction
-		(at 130.81 35.56)
+		(at 130.81 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7f4a16d-840a-4843-999a-f819977a2b9c")
 	)
 	(junction
-		(at 100.33 107.95)
+		(at 115.57 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da19a05e-9dfb-4953-941d-86de789430fb")
 	)
 	(junction
-		(at 147.32 134.62)
+		(at 242.57 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e01bd81b-36d9-4a0b-8f5d-928e48d3acef")
+	)
+	(junction
+		(at 162.56 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5f073ff-a38c-41e3-9e9e-e99f8ed0ccdb")
 	)
 	(junction
-		(at 212.09 127)
+		(at 227.33 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e624e908-4fab-4918-b19b-9081f06a10d2")
 	)
 	(junction
-		(at 68.58 168.91)
+		(at 68.58 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea17fc30-d6a5-4fb3-9b0a-e0438534bea2")
 	)
 	(junction
-		(at 97.79 64.77)
+		(at 97.79 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb4bf7ea-45c2-4f7d-b636-a9944500f9c9")
 	)
 	(junction
-		(at 57.15 123.19)
+		(at 21.59 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef2b59e4-54a0-49d8-8bbd-fcb88360d4ca")
+	)
+	(junction
+		(at 22.86 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5d3513a-cee2-4ec6-a4d9-575269515952")
+	)
+	(junction
+		(at 57.15 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8cb313b-3456-439e-90e4-92a566d23feb")
 	)
 	(wire
 		(pts
-			(xy 68.58 153.67) (xy 68.58 168.91)
+			(xy 162.56 104.14) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002e3e9c-18d2-481e-8b35-11184940bf4d")
+	)
+	(wire
+		(pts
+			(xy 68.58 149.86) (xy 68.58 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3647,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 133.35) (xy 100.33 133.35)
+			(xy 127 129.54) (xy 115.57 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3657,7 +4028,27 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 128.27) (xy 138.43 128.27)
+			(xy 77.47 189.23) (xy 77.47 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a641b4-b7a8-4d92-a51c-989c3738a822")
+	)
+	(wire
+		(pts
+			(xy 95.25 161.29) (xy 95.25 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032000bd-1bad-4c68-8430-0ffdbf606493")
+	)
+	(wire
+		(pts
+			(xy 154.94 124.46) (xy 153.67 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3667,7 +4058,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 48.26) (xy 231.14 48.26)
+			(xy 228.6 44.45) (xy 231.14 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3677,7 +4068,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 134.62) (xy 157.48 134.62)
+			(xy 173.99 50.8) (xy 173.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "070b0561-12fe-4303-b64d-a3f0360455fa")
+	)
+	(wire
+		(pts
+			(xy 167.64 130.81) (xy 172.72 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3687,7 +4088,27 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 170.18) (xy 26.67 170.18)
+			(xy 85.09 146.05) (xy 85.09 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b62f46-d8a7-42be-91e9-918e9738525e")
+	)
+	(wire
+		(pts
+			(xy 21.59 184.15) (xy 22.86 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3f18ec-e886-42e6-af62-85ad832cd241")
+	)
+	(wire
+		(pts
+			(xy 17.78 162.56) (xy 25.4 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3697,7 +4118,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 128.27) (xy 130.81 128.27)
+			(xy 72.39 161.29) (xy 85.09 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e163cc1-031a-409a-bf46-79b7ef17d8b7")
+	)
+	(wire
+		(pts
+			(xy 153.67 124.46) (xy 146.05 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3707,7 +4138,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 119.38) (xy 185.42 119.38)
+			(xy 194.31 115.57) (xy 200.66 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3717,7 +4148,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 55.88) (xy 114.3 55.88)
+			(xy 102.87 52.07) (xy 114.3 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3727,7 +4158,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 88.9) (xy 90.17 90.17)
+			(xy 39.37 50.8) (xy 52.07 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117373ea-1739-41a6-ad0d-c21737623478")
+	)
+	(wire
+		(pts
+			(xy 90.17 85.09) (xy 90.17 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3737,7 +4178,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 124.46) (xy 185.42 124.46)
+			(xy 194.31 120.65) (xy 200.66 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3747,7 +4188,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 137.16) (xy 185.42 137.16)
+			(xy 185.42 133.35) (xy 200.66 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3757,7 +4198,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 133.35) (xy 147.32 134.62)
+			(xy 21.59 184.15) (xy 21.59 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0017d0-ee81-4171-bd68-47d7e4f31a4f")
+	)
+	(wire
+		(pts
+			(xy 162.56 129.54) (xy 162.56 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3767,7 +4218,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 35.56) (xy 39.37 44.45)
+			(xy 39.37 31.75) (xy 39.37 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3777,7 +4228,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 59.69) (xy 232.41 59.69)
+			(xy 228.6 55.88) (xy 232.41 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3787,7 +4238,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 81.28) (xy 97.79 81.28)
+			(xy 95.25 77.47) (xy 97.79 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3797,7 +4248,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 44.45) (xy 114.3 55.88)
+			(xy 114.3 40.64) (xy 114.3 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3807,7 +4258,27 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 39.37) (xy 29.21 35.56)
+			(xy 185.42 35.56) (xy 189.23 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205fdb70-2581-4c08-85d9-d0afb1bfbd39")
+	)
+	(wire
+		(pts
+			(xy 242.57 105.41) (xy 242.57 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2088a7e2-5a21-4f98-a290-e32d35b651d6")
+	)
+	(wire
+		(pts
+			(xy 29.21 35.56) (xy 29.21 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3817,7 +4288,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 52.07) (xy 107.95 64.77)
+			(xy 107.95 48.26) (xy 107.95 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3827,7 +4298,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 142.24) (xy 184.15 147.32)
+			(xy 199.39 138.43) (xy 199.39 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3837,7 +4308,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 81.28) (xy 114.3 81.28)
+			(xy 110.49 77.47) (xy 114.3 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3847,7 +4318,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 35.56) (xy 130.81 35.56)
+			(xy 123.19 31.75) (xy 130.81 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3857,7 +4328,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 123.19) (xy 30.48 123.19)
+			(xy 22.86 119.38) (xy 30.48 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3867,7 +4338,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 53.34) (xy 29.21 57.15)
+			(xy 29.21 49.53) (xy 29.21 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3877,7 +4348,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 137.16) (xy 170.18 160.02)
+			(xy 185.42 133.35) (xy 185.42 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3887,7 +4358,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 106.68) (xy 147.32 107.95)
+			(xy 162.56 100.33) (xy 162.56 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3897,7 +4368,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 168.91) (xy 77.47 168.91)
+			(xy 72.39 165.1) (xy 77.47 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3907,7 +4378,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 160.02) (xy 198.12 160.02)
+			(xy 199.39 156.21) (xy 213.36 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3917,17 +4388,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 53.34) (xy 143.51 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ed2af32-d68b-4025-b8bc-bc1c6819a7ec")
-	)
-	(wire
-		(pts
-			(xy 212.09 160.02) (xy 198.12 160.02)
+			(xy 227.33 156.21) (xy 213.36 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3937,17 +4398,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 193.04) (xy 77.47 191.77)
+			(xy 196.85 35.56) (xy 199.39 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "318ef421-33c0-4cde-971f-8bb743203afc")
+		(uuid "30a064ce-3c4b-446a-8c15-06a4519c8226")
 	)
 	(wire
 		(pts
-			(xy 199.39 35.56) (xy 199.39 45.72)
+			(xy 199.39 31.75) (xy 199.39 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3957,7 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 90.17) (xy 105.41 90.17)
+			(xy 90.17 86.36) (xy 105.41 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3967,7 +4428,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 127) (xy 114.3 128.27)
+			(xy 129.54 123.19) (xy 129.54 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3977,7 +4438,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 111.76) (xy 138.43 111.76)
+			(xy 49.53 191.77) (xy 49.53 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33eb1ec8-daaf-4828-98a9-529b2ebee8e0")
+	)
+	(wire
+		(pts
+			(xy 162.56 107.95) (xy 153.67 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3987,7 +4458,47 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 153.67) (xy 68.58 153.67)
+			(xy 143.51 50.8) (xy 156.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3757fee1-a916-458d-bc69-dd1a2f606366")
+	)
+	(wire
+		(pts
+			(xy 85.09 146.05) (xy 95.25 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375afefe-305f-4019-8065-ebb1e92665cf")
+	)
+	(wire
+		(pts
+			(xy 185.42 35.56) (xy 185.42 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386b4ef3-87e5-4bff-98aa-34eb87376efe")
+	)
+	(wire
+		(pts
+			(xy 172.72 114.3) (xy 172.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e5d7a7-95ee-4ac3-a79e-5d0af843bbe8")
+	)
+	(wire
+		(pts
+			(xy 62.23 149.86) (xy 68.58 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3997,7 +4508,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 46.99) (xy 29.21 48.26)
+			(xy 29.21 43.18) (xy 29.21 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4007,7 +4518,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 44.45) (xy 87.63 55.88)
+			(xy 87.63 40.64) (xy 87.63 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4017,7 +4528,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 107.95) (xy 147.32 107.95)
+			(xy 157.48 104.14) (xy 162.56 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4027,7 +4538,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 166.37) (xy 48.26 166.37)
+			(xy 21.59 179.07) (xy 21.59 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc28a38-4386-4661-b010-0f3dbd170632")
+	)
+	(wire
+		(pts
+			(xy 49.53 162.56) (xy 48.26 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4037,7 +4558,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 168.91) (xy 66.04 168.91)
+			(xy 68.58 165.1) (xy 66.04 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4047,7 +4568,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 81.28) (xy 100.33 81.28)
+			(xy 97.79 77.47) (xy 100.33 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4057,7 +4578,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 35.56) (xy 64.77 35.56)
+			(xy 52.07 31.75) (xy 64.77 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4067,7 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 168.91) (xy 19.05 170.18)
+			(xy 17.78 161.29) (xy 17.78 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4077,7 +4598,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 123.19) (xy 57.15 132.08)
+			(xy 57.15 119.38) (xy 57.15 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4087,7 +4608,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 73.66) (xy 97.79 81.28)
+			(xy 97.79 69.85) (xy 97.79 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4097,7 +4618,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 171.45) (xy 48.26 171.45)
+			(xy 49.53 167.64) (xy 48.26 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4107,7 +4628,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 48.26) (xy 173.99 49.53)
+			(xy 173.99 41.91) (xy 173.99 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4117,7 +4638,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 160.02) (xy 184.15 160.02)
+			(xy 172.72 104.14) (xy 172.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d67d2a3-7da9-414b-9946-790666349dbe")
+	)
+	(wire
+		(pts
+			(xy 190.5 156.21) (xy 199.39 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4127,7 +4658,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 128.27) (xy 114.3 130.81)
+			(xy 129.54 124.46) (xy 129.54 127)
 		)
 		(stroke
 			(width 0)
@@ -4137,7 +4668,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 64.77) (xy 97.79 64.77)
+			(xy 107.95 60.96) (xy 97.79 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4147,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 127) (xy 185.42 127)
+			(xy 194.31 123.19) (xy 200.66 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4157,7 +4688,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 123.19) (xy 22.86 124.46)
+			(xy 22.86 119.38) (xy 22.86 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4167,7 +4698,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 115.57) (xy 63.5 123.19)
+			(xy 63.5 111.76) (xy 63.5 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4177,7 +4708,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 132.08) (xy 22.86 134.62)
+			(xy 22.86 128.27) (xy 22.86 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4187,17 +4718,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 110.49) (xy 29.21 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5477f75a-4c5b-41ad-b158-07d862132f60")
-	)
-	(wire
-		(pts
-			(xy 77.47 168.91) (xy 77.47 173.99)
+			(xy 77.47 165.1) (xy 77.47 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4207,7 +4728,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 135.89) (xy 114.3 144.78)
+			(xy 95.25 146.05) (xy 95.25 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552a52e0-f846-4760-bbf9-9fb49c3a42dd")
+	)
+	(wire
+		(pts
+			(xy 129.54 132.08) (xy 129.54 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4217,7 +4748,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 35.56) (xy 52.07 35.56)
+			(xy 39.37 31.75) (xy 52.07 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4227,7 +4758,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 64.77) (xy 97.79 63.5)
+			(xy 97.79 60.96) (xy 97.79 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4237,7 +4768,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 45.72) (xy 130.81 35.56)
+			(xy 130.81 40.64) (xy 130.81 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4247,7 +4778,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 48.26) (xy 231.14 50.8)
+			(xy 231.14 44.45) (xy 231.14 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4257,7 +4788,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 127) (xy 210.82 127)
+			(xy 227.33 123.19) (xy 226.06 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4267,7 +4798,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 144.78) (xy 100.33 144.78)
+			(xy 129.54 140.97) (xy 115.57 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4277,7 +4808,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 107.95) (xy 147.32 111.76)
+			(xy 162.56 104.14) (xy 162.56 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4287,7 +4818,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 168.91) (xy 72.39 177.8)
+			(xy 72.39 165.1) (xy 72.39 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4297,7 +4828,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 35.56) (xy 39.37 35.56)
+			(xy 29.21 31.75) (xy 39.37 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4307,7 +4838,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 123.19) (xy 63.5 123.19)
+			(xy 57.15 119.38) (xy 63.5 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4317,7 +4848,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 52.07) (xy 64.77 57.15)
+			(xy 64.77 48.26) (xy 64.77 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4327,7 +4858,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 90.17) (xy 105.41 88.9)
+			(xy 105.41 86.36) (xy 105.41 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4337,7 +4868,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 35.56) (xy 161.29 35.56)
+			(xy 156.21 31.75) (xy 161.29 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4347,7 +4878,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 118.11) (xy 26.67 118.11)
+			(xy 29.21 114.3) (xy 26.67 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4357,7 +4888,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 179.07) (xy 19.05 181.61)
+			(xy 17.78 171.45) (xy 17.78 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4367,7 +4898,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 36.83) (xy 231.14 36.83)
+			(xy 228.6 33.02) (xy 231.14 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4377,7 +4908,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 129.54) (xy 212.09 129.54)
+			(xy 213.36 102.87) (xy 232.41 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0485fb-ed26-4a8f-a8cf-371113e90162")
+	)
+	(wire
+		(pts
+			(xy 226.06 125.73) (xy 227.33 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4387,7 +4928,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 35.56) (xy 29.21 35.56)
+			(xy 24.13 31.75) (xy 29.21 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4397,7 +4938,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 170.18) (xy 19.05 171.45)
+			(xy 17.78 162.56) (xy 17.78 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4407,7 +4948,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 123.19) (xy 30.48 129.54)
+			(xy 30.48 119.38) (xy 30.48 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4417,7 +4958,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 143.51) (xy 100.33 144.78)
+			(xy 29.21 50.8) (xy 39.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7403c698-6afa-4672-a04c-9e92b629d4b5")
+	)
+	(wire
+		(pts
+			(xy 115.57 139.7) (xy 115.57 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4427,7 +4978,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 81.28) (xy 80.01 81.28)
+			(xy 85.09 77.47) (xy 80.01 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4437,7 +4988,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 53.34) (xy 130.81 58.42)
+			(xy 130.81 48.26) (xy 130.81 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4447,7 +4998,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 52.07) (xy 39.37 57.15)
+			(xy 39.37 48.26) (xy 39.37 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4457,7 +5008,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 160.02) (xy 175.26 160.02)
+			(xy 185.42 156.21) (xy 190.5 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4467,17 +5018,27 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 107.95) (xy 22.86 110.49)
+			(xy 232.41 102.87) (xy 242.57 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79967a73-0364-427b-8d98-6f936b322933")
+		(uuid "78d87ef1-088a-4eef-8561-9f4631b977ca")
 	)
 	(wire
 		(pts
-			(xy 64.77 35.56) (xy 68.58 35.56)
+			(xy 232.41 102.87) (xy 232.41 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f73dd3-a170-4acd-8d42-b864051b11f7")
+	)
+	(wire
+		(pts
+			(xy 64.77 31.75) (xy 68.58 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4487,7 +5048,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 133.35) (xy 100.33 135.89)
+			(xy 115.57 129.54) (xy 115.57 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4497,7 +5058,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 35.56) (xy 87.63 44.45)
+			(xy 87.63 31.75) (xy 87.63 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4507,7 +5068,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 90.17) (xy 90.17 90.17)
+			(xy 83.82 86.36) (xy 90.17 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4517,7 +5078,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 55.88) (xy 92.71 55.88)
+			(xy 87.63 52.07) (xy 92.71 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4527,7 +5088,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 153.67) (xy 49.53 166.37)
+			(xy 49.53 149.86) (xy 49.53 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4537,7 +5098,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 166.37) (xy 40.64 166.37)
+			(xy 35.56 162.56) (xy 40.64 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4547,7 +5108,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 181.61) (xy 77.47 182.88)
+			(xy 77.47 177.8) (xy 77.47 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4557,7 +5118,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 168.91) (xy 72.39 168.91)
+			(xy 68.58 165.1) (xy 72.39 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4567,7 +5128,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 125.73) (xy 100.33 133.35)
+			(xy 115.57 121.92) (xy 115.57 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4577,7 +5138,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 123.19) (xy 57.15 123.19)
+			(xy 55.88 119.38) (xy 57.15 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4587,7 +5148,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 129.54) (xy 212.09 127)
+			(xy 227.33 125.73) (xy 227.33 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4597,7 +5158,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 123.19) (xy 138.43 128.27)
+			(xy 153.67 119.38) (xy 153.67 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4607,7 +5168,27 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 153.67) (xy 49.53 153.67)
+			(xy 39.37 181.61) (xy 38.1 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e6326c-7ace-492a-a6ef-992e67d2dfd1")
+	)
+	(wire
+		(pts
+			(xy 143.51 48.26) (xy 143.51 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ade7a1-f65a-49da-aae9-820f86c00253")
+	)
+	(wire
+		(pts
+			(xy 54.61 149.86) (xy 49.53 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4617,7 +5198,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 45.72) (xy 143.51 35.56)
+			(xy 143.51 40.64) (xy 143.51 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4627,7 +5208,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 177.8) (xy 73.66 177.8)
+			(xy 72.39 173.99) (xy 73.66 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4637,7 +5218,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 44.45) (xy 87.63 44.45)
+			(xy 102.87 40.64) (xy 87.63 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4647,7 +5228,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 182.88) (xy 81.28 187.96)
+			(xy 81.28 179.07) (xy 81.28 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4657,7 +5238,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 111.76) (xy 138.43 115.57)
+			(xy 153.67 107.95) (xy 153.67 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4667,7 +5248,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 45.72) (xy 185.42 35.56)
+			(xy 199.39 35.56) (xy 199.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87685b12-e60f-47db-be05-d162ee8ef594")
+	)
+	(wire
+		(pts
+			(xy 185.42 41.91) (xy 185.42 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4677,7 +5268,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 182.88) (xy 81.28 182.88)
+			(xy 77.47 179.07) (xy 81.28 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4687,7 +5278,27 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 121.92) (xy 39.37 123.19)
+			(xy 52.07 50.8) (xy 64.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894e1f51-5028-4dc9-bf28-906e5bf269f4")
+	)
+	(wire
+		(pts
+			(xy 29.21 106.68) (xy 29.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a82d277-83f3-4d66-a947-5622e816583a")
+	)
+	(wire
+		(pts
+			(xy 39.37 118.11) (xy 39.37 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4697,7 +5308,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 35.56) (xy 52.07 44.45)
+			(xy 52.07 31.75) (xy 52.07 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4707,7 +5318,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 35.56) (xy 156.21 35.56)
+			(xy 143.51 31.75) (xy 156.21 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4717,7 +5328,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 134.62) (xy 212.09 137.16)
+			(xy 227.33 130.81) (xy 227.33 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4727,7 +5338,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 35.56) (xy 115.57 35.56)
+			(xy 87.63 31.75) (xy 115.57 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4737,7 +5348,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 35.56) (xy 80.01 35.56)
+			(xy 76.2 31.75) (xy 80.01 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4747,7 +5358,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 134.62) (xy 185.42 134.62)
+			(xy 194.31 130.81) (xy 200.66 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4757,7 +5368,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 36.83) (xy 231.14 39.37)
+			(xy 231.14 33.02) (xy 231.14 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4767,7 +5378,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 35.56) (xy 196.85 35.56)
+			(xy 199.39 31.75) (xy 196.85 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4777,7 +5388,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 81.28) (xy 80.01 35.56)
+			(xy 80.01 77.47) (xy 80.01 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4787,7 +5398,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 105.41) (xy 198.12 114.3)
+			(xy 213.36 101.6) (xy 213.36 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4797,7 +5408,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 121.92) (xy 22.86 123.19)
+			(xy 22.86 118.11) (xy 22.86 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4807,7 +5418,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 166.37) (xy 49.53 166.37)
+			(xy 50.8 162.56) (xy 49.53 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4817,7 +5428,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 35.56) (xy 156.21 45.72)
+			(xy 156.21 31.75) (xy 156.21 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4827,7 +5438,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 123.19) (xy 72.39 123.19)
+			(xy 49.53 189.23) (xy 77.47 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f68347e-5ab4-43d7-8b61-0b5446eca25f")
+	)
+	(wire
+		(pts
+			(xy 63.5 119.38) (xy 72.39 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4837,7 +5458,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 144.78) (xy 114.3 144.78)
+			(xy 22.86 106.68) (xy 29.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10f2ea5-cdb9-48d1-81ca-a8e172c8d3dd")
+	)
+	(wire
+		(pts
+			(xy 162.56 140.97) (xy 129.54 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4847,7 +5478,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 171.45) (xy 40.64 171.45)
+			(xy 156.21 48.26) (xy 156.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d04f22-2caf-44bb-abb7-bb21b95d0449")
+	)
+	(wire
+		(pts
+			(xy 35.56 167.64) (xy 40.64 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4857,7 +5498,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 160.02) (xy 198.12 163.83)
+			(xy 232.41 113.03) (xy 242.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a7ee34-1079-4027-94f0-b29d7eef5cee")
+	)
+	(wire
+		(pts
+			(xy 213.36 156.21) (xy 213.36 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4867,7 +5518,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 128.27) (xy 114.3 128.27)
+			(xy 138.43 124.46) (xy 129.54 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4877,7 +5528,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 171.45) (xy 49.53 181.61)
+			(xy 49.53 167.64) (xy 49.53 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4887,7 +5538,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 54.61) (xy 173.99 58.42)
+			(xy 173.99 48.26) (xy 173.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4897,7 +5548,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 129.54) (xy 185.42 129.54)
+			(xy 194.31 125.73) (xy 200.66 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4907,7 +5558,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 144.78) (xy 100.33 146.05)
+			(xy 115.57 140.97) (xy 115.57 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4917,7 +5568,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 123.19) (xy 48.26 123.19)
+			(xy 39.37 119.38) (xy 48.26 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4927,7 +5578,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 110.49) (xy 22.86 114.3)
+			(xy 22.86 104.14) (xy 22.86 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4937,7 +5588,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 66.04) (xy 97.79 64.77)
+			(xy 97.79 62.23) (xy 97.79 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4947,7 +5598,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 144.78) (xy 147.32 143.51)
+			(xy 162.56 140.97) (xy 162.56 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4957,7 +5608,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 137.16) (xy 212.09 160.02)
+			(xy 227.33 133.35) (xy 227.33 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4967,7 +5618,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 142.24) (xy 184.15 142.24)
+			(xy 200.66 138.43) (xy 199.39 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4977,7 +5628,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 139.7) (xy 175.26 139.7)
+			(xy 95.25 144.78) (xy 95.25 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8720cb5-828a-45f5-a34d-4084aafcb6e6")
+	)
+	(wire
+		(pts
+			(xy 200.66 135.89) (xy 190.5 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4987,7 +5648,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 134.62) (xy 152.4 134.62)
+			(xy 162.56 130.81) (xy 167.64 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4997,7 +5658,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 107.95) (xy 109.22 107.95)
+			(xy 115.57 104.14) (xy 124.46 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5007,7 +5668,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 139.7) (xy 175.26 147.32)
+			(xy 190.5 135.89) (xy 190.5 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5017,7 +5678,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 35.56) (xy 143.51 35.56)
+			(xy 130.81 31.75) (xy 143.51 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5027,7 +5688,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 35.56) (xy 199.39 35.56)
+			(xy 200.66 31.75) (xy 199.39 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5037,7 +5698,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 132.08) (xy 185.42 132.08)
+			(xy 194.31 128.27) (xy 200.66 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5047,17 +5708,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 53.34) (xy 156.21 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0c92498-fdde-416b-8c4a-9f6d10f2b1d8")
-	)
-	(wire
-		(pts
-			(xy 49.53 189.23) (xy 49.53 193.04)
+			(xy 49.53 185.42) (xy 49.53 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5067,7 +5718,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 35.56) (xy 168.91 35.56)
+			(xy 173.99 31.75) (xy 168.91 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5077,7 +5728,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 121.92) (xy 185.42 121.92)
+			(xy 85.09 161.29) (xy 95.25 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21a8902-e9c4-40b6-86ec-219cc29a6a88")
+	)
+	(wire
+		(pts
+			(xy 194.31 118.11) (xy 200.66 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5087,7 +5748,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 120.65 55.88)
+			(xy 114.3 52.07) (xy 120.65 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5097,7 +5758,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 132.08) (xy 72.39 132.08)
+			(xy 156.21 50.8) (xy 173.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e3a852-b33e-4799-9fa0-3194f0718598")
+	)
+	(wire
+		(pts
+			(xy 67.31 128.27) (xy 72.39 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5107,7 +5778,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 147.32) (xy 198.12 160.02)
+			(xy 213.36 143.51) (xy 213.36 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5117,7 +5788,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 111.76) (xy 100.33 111.76)
+			(xy 129.54 107.95) (xy 115.57 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5127,7 +5798,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 123.19) (xy 39.37 124.46)
+			(xy 39.37 119.38) (xy 39.37 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5137,7 +5808,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 55.88) (xy 120.65 58.42)
+			(xy 120.65 52.07) (xy 120.65 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5147,7 +5818,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 120.65) (xy 114.3 121.92)
+			(xy 129.54 116.84) (xy 129.54 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5157,7 +5828,27 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 44.45) (xy 114.3 44.45)
+			(xy 39.37 181.61) (xy 39.37 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe3f474-4a3e-4ebf-b7fb-ff7767b64a7c")
+	)
+	(wire
+		(pts
+			(xy 130.81 50.8) (xy 143.51 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb6e03e-2bcd-4d9f-b910-8886f5458cbf")
+	)
+	(wire
+		(pts
+			(xy 113.03 40.64) (xy 114.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5167,7 +5858,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 107.95) (xy 39.37 114.3)
+			(xy 85.09 161.29) (xy 85.09 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd516e6b-69de-42a9-be58-04145692bb4b")
+	)
+	(wire
+		(pts
+			(xy 39.37 104.14) (xy 39.37 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5177,7 +5878,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 111.76) (xy 147.32 123.19)
+			(xy 162.56 107.95) (xy 162.56 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5187,17 +5888,17 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 110.49) (xy 29.21 110.49)
+			(xy 213.36 102.87) (xy 213.36 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3419778-5860-4b2f-a77f-ad161f79ca19")
+		(uuid "d415799a-c21a-4ed0-b26a-96be97366b8b")
 	)
 	(wire
 		(pts
-			(xy 184.15 154.94) (xy 184.15 160.02)
+			(xy 199.39 151.13) (xy 199.39 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5207,7 +5908,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 182.88) (xy 88.9 182.88)
+			(xy 81.28 179.07) (xy 88.9 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5217,7 +5918,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 35.56) (xy 173.99 40.64)
+			(xy 173.99 31.75) (xy 173.99 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5227,7 +5928,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 134.62) (xy 152.4 140.97)
+			(xy 167.64 130.81) (xy 167.64 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5237,7 +5938,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 132.08) (xy 59.69 132.08)
+			(xy 57.15 128.27) (xy 59.69 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5247,7 +5948,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 127) (xy 214.63 127)
+			(xy 227.33 123.19) (xy 229.87 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5257,7 +5958,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 35.56) (xy 189.23 35.56)
+			(xy 172.72 104.14) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dafad5a8-f07a-49a9-b3ed-3e96a996d2ac")
+	)
+	(wire
+		(pts
+			(xy 185.42 31.75) (xy 189.23 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5267,7 +5978,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 182.88) (xy 77.47 184.15)
+			(xy 77.47 179.07) (xy 77.47 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5277,7 +5988,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 111.76) (xy 100.33 118.11)
+			(xy 115.57 107.95) (xy 115.57 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5287,7 +5998,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 113.03) (xy 114.3 111.76)
+			(xy 129.54 109.22) (xy 129.54 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5297,7 +6008,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 137.16) (xy 210.82 137.16)
+			(xy 227.33 133.35) (xy 226.06 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5307,7 +6018,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 132.08) (xy 39.37 134.62)
+			(xy 39.37 128.27) (xy 39.37 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5317,7 +6028,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 170.18) (xy 33.02 170.18)
+			(xy 25.4 162.56) (xy 31.75 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5327,7 +6038,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 171.45) (xy 49.53 171.45)
+			(xy 22.86 106.68) (xy 22.86 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41c3185-17a2-40e3-8b8f-e8ef16ea4198")
+	)
+	(wire
+		(pts
+			(xy 50.8 167.64) (xy 49.53 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5337,7 +6058,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 71.12) (xy 232.41 71.12)
+			(xy 228.6 67.31) (xy 232.41 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5347,7 +6068,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 134.62) (xy 147.32 135.89)
+			(xy 39.37 189.23) (xy 39.37 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f2859a-56f8-44eb-b3dd-c7fe226c4fa8")
+	)
+	(wire
+		(pts
+			(xy 162.56 130.81) (xy 162.56 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5357,7 +6088,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 35.56) (xy 64.77 44.45)
+			(xy 64.77 31.75) (xy 64.77 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5367,7 +6098,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 35.56) (xy 87.63 35.56)
+			(xy 80.01 31.75) (xy 87.63 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5377,7 +6108,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 106.68) (xy 100.33 107.95)
+			(xy 115.57 100.33) (xy 115.57 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5387,7 +6118,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 81.28) (xy 114.3 55.88)
+			(xy 21.59 189.23) (xy 39.37 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5a6662-d05b-4472-a4df-20475487e630")
+	)
+	(wire
+		(pts
+			(xy 114.3 77.47) (xy 114.3 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5397,7 +6138,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 35.56) (xy 185.42 35.56)
+			(xy 173.99 31.75) (xy 185.42 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5407,7 +6148,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 52.07) (xy 52.07 57.15)
+			(xy 52.07 48.26) (xy 52.07 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5417,7 +6158,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 158.75) (xy 19.05 161.29)
+			(xy 17.78 151.13) (xy 17.78 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5427,7 +6168,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 154.94) (xy 175.26 160.02)
+			(xy 64.77 50.8) (xy 64.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2397e28-128d-4ca9-9795-c84d112b00b0")
+	)
+	(wire
+		(pts
+			(xy 190.5 151.13) (xy 190.5 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5437,7 +6188,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 134.62) (xy 210.82 134.62)
+			(xy 72.39 146.05) (xy 85.09 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4513821-7b6a-4eef-93a8-73d96ad72189")
+	)
+	(wire
+		(pts
+			(xy 227.33 130.81) (xy 226.06 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5447,7 +6208,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 123.19) (xy 35.56 123.19)
+			(xy 30.48 119.38) (xy 35.56 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5457,7 +6218,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 90.17) (xy 105.41 90.17)
+			(xy 110.49 86.36) (xy 105.41 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5467,7 +6228,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 107.95) (xy 100.33 111.76)
+			(xy 115.57 104.14) (xy 115.57 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5477,7 +6238,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 170.18) (xy 26.67 176.53)
+			(xy 25.4 162.56) (xy 25.4 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5485,9 +6246,19 @@
 		)
 		(uuid "ff38a905-f936-422e-8cfe-9ce7cacdedf2")
 	)
+	(wire
+		(pts
+			(xy 21.59 179.07) (xy 22.86 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3d93c2-81e8-48b6-af8a-99425736abf9")
+	)
 	(rectangle
-		(start 215.9 26.67)
-		(end 255.27 93.98)
+		(start 215.9 22.86)
+		(end 255.27 90.17)
 		(stroke
 			(width 0)
 			(type default)
@@ -5498,8 +6269,8 @@
 		(uuid 02f786cb-9be2-44b6-966c-e3300e744f54)
 	)
 	(rectangle
-		(start 162.56 96.52)
-		(end 240.03 171.45)
+		(start 177.8 92.71)
+		(end 255.27 167.64)
 		(stroke
 			(width 0)
 			(type default)
@@ -5510,8 +6281,8 @@
 		(uuid 2630b498-3fc1-4ab2-9673-12861a46588a)
 	)
 	(rectangle
-		(start 13.97 144.78)
-		(end 90.17 201.93)
+		(start 13.97 140.97)
+		(end 104.14 200.66)
 		(stroke
 			(width 0)
 			(type default)
@@ -5522,8 +6293,8 @@
 		(uuid 2b962628-f01a-4232-9b35-87f4c15e3843)
 	)
 	(rectangle
-		(start 13.97 26.67)
-		(end 212.09 93.98)
+		(start 13.97 22.86)
+		(end 212.09 90.17)
 		(stroke
 			(width 0)
 			(type default)
@@ -5534,8 +6305,8 @@
 		(uuid 875f4b99-c5f2-4b5e-9856-5c7f5de6c0af)
 	)
 	(rectangle
-		(start 91.44 96.52)
-		(end 160.02 154.94)
+		(start 106.68 92.71)
+		(end 175.26 151.13)
 		(stroke
 			(width 0)
 			(type default)
@@ -5546,8 +6317,8 @@
 		(uuid 8b35a236-4b0e-47f0-8668-36b906a60698)
 	)
 	(rectangle
-		(start 13.97 96.52)
-		(end 77.47 143.51)
+		(start 13.97 92.71)
+		(end 104.14 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -5559,7 +6330,7 @@
 	)
 	(text "TL494"
 		(exclude_from_sim no)
-		(at 165.862 98.552 0)
+		(at 181.102 94.742 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5569,7 +6340,7 @@
 	)
 	(text "Boost Converter\n"
 		(exclude_from_sim no)
-		(at 22.098 28.702 0)
+		(at 22.098 24.892 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5589,7 +6360,7 @@
 	)
 	(text "Voltage Feedback\n"
 		(exclude_from_sim no)
-		(at 22.86 98.298 0)
+		(at 22.86 94.488 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5599,7 +6370,7 @@
 	)
 	(text "Mounting Holes for Power Connections"
 		(exclude_from_sim no)
-		(at 235.204 28.194 0)
+		(at 235.204 24.384 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5609,7 +6380,7 @@
 	)
 	(text "Overvoltage Protection"
 		(exclude_from_sim no)
-		(at 102.616 98.298 0)
+		(at 117.856 94.488 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5619,7 +6390,7 @@
 	)
 	(text "Current Feedback\n"
 		(exclude_from_sim no)
-		(at 22.86 146.812 0)
+		(at 22.86 143.002 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5639,7 +6410,7 @@
 		(uuid "fba33dfb-ab80-431d-9e1c-7f90a16c8c17")
 	)
 	(label "2IN-"
-		(at 33.02 170.18 180)
+		(at 31.75 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5650,7 +6421,7 @@
 		(uuid "0e3835fa-7ad1-4f4a-be14-667e7c835778")
 	)
 	(label "2IN+"
-		(at 88.9 182.88 180)
+		(at 88.9 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5661,7 +6432,7 @@
 		(uuid "102955a9-420b-4875-b2d6-e9f5a1cc18fe")
 	)
 	(label "FB"
-		(at 179.07 129.54 0)
+		(at 194.31 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5672,7 +6443,7 @@
 		(uuid "126a93a8-74c0-4a24-8f12-3a11767efb43")
 	)
 	(label "1IN-"
-		(at 179.07 119.38 0)
+		(at 194.31 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5683,7 +6454,7 @@
 		(uuid "15de61f8-f35e-4586-8cfe-1a7259744168")
 	)
 	(label "1IN+"
-		(at 179.07 121.92 0)
+		(at 194.31 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5694,7 +6465,7 @@
 		(uuid "1e353043-2ce5-4e87-982b-30fece2b9881")
 	)
 	(label "1IN+"
-		(at 35.56 123.19 180)
+		(at 35.56 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5705,7 +6476,7 @@
 		(uuid "3e424116-9835-4e58-8656-5c013c75b4df")
 	)
 	(label "FB"
-		(at 72.39 132.08 180)
+		(at 72.39 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5716,7 +6487,7 @@
 		(uuid "45297b6a-1986-4661-8e80-2fcd7476a50e")
 	)
 	(label "2IN+"
-		(at 179.07 124.46 0)
+		(at 194.31 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5727,7 +6498,7 @@
 		(uuid "7d1cdbb0-8837-489a-bf41-6b2f41bfddf8")
 	)
 	(label "1IN-"
-		(at 72.39 123.19 180)
+		(at 72.39 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5738,7 +6509,7 @@
 		(uuid "83fe48ea-f0c6-4021-85a2-a57d19e47d52")
 	)
 	(label "CS+"
-		(at 35.56 166.37 0)
+		(at 35.56 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5749,7 +6520,7 @@
 		(uuid "9fc15903-c894-496a-92dc-40b9faa7fc83")
 	)
 	(label "2IN-"
-		(at 179.07 127 0)
+		(at 194.31 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5760,7 +6531,7 @@
 		(uuid "b9c928d1-bff3-42b7-b9a9-69134063ab10")
 	)
 	(label "DTC"
-		(at 157.48 134.62 180)
+		(at 172.72 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5771,7 +6542,7 @@
 		(uuid "b9ee3160-1441-4083-8f65-e5abb8f206dd")
 	)
 	(label "CS+"
-		(at 185.42 45.72 0)
+		(at 185.42 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5782,7 +6553,7 @@
 		(uuid "d0b57784-adf1-4c06-9ec7-7181b228116d")
 	)
 	(label "CS-"
-		(at 199.39 45.72 0)
+		(at 199.39 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5793,7 +6564,7 @@
 		(uuid "dbde63ae-b85d-48a3-85d2-28d486cf486e")
 	)
 	(label "DTC"
-		(at 179.07 134.62 0)
+		(at 194.31 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5804,7 +6575,7 @@
 		(uuid "ec18144d-30f1-4f52-9cf0-f434822e5a10")
 	)
 	(label "CS-"
-		(at 35.56 171.45 0)
+		(at 35.56 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5816,7 +6587,7 @@
 	)
 	(global_label "BoostConverterSwitch"
 		(shape input)
-		(at 214.63 127 0)
+		(at 229.87 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5826,7 +6597,7 @@
 		)
 		(uuid "7ff8a2c1-6a7b-4e27-baba-b768e8d9e17f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.056 127 0)
+			(at 253.296 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,7 +6609,7 @@
 	)
 	(global_label "BoostConverterSwitch"
 		(shape input)
-		(at 110.49 90.17 0)
+		(at 110.49 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5848,7 +6619,7 @@
 		)
 		(uuid "fa41b917-9cc7-4cb4-aa8a-6aee199d86fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.916 90.17 0)
+			(at 133.916 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,15 +6631,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 81.28 187.96 0)
+		(at 81.28 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "009d0df5-55d2-44e2-81eb-ebd8aa134335")
-		(property "Reference" "TP5"
-			(at 82.55 186.6899 0)
+		(property "Reference" "TP8"
+			(at 82.55 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +6648,7 @@
 			)
 		)
 		(property "Value" "2IN+"
-			(at 82.55 189.2299 0)
+			(at 82.55 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,8 +6656,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 187.96 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 86.36 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,7 +6666,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 187.96 0)
+			(at 86.36 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +6675,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 81.28 187.96 0)
+			(at 81.28 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +6689,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "TP5")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -5926,15 +6697,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 63.5 115.57 0)
+		(at 63.5 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0186fd71-9757-4380-a519-fd59953e2549")
-		(property "Reference" "TP8"
-			(at 64.77 114.2999 0)
+		(property "Reference" "TP4"
+			(at 64.77 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +6714,7 @@
 			)
 		)
 		(property "Value" "1IN-"
-			(at 64.77 116.8399 0)
+			(at 64.77 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,8 +6722,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 68.58 115.57 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 68.58 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +6732,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 115.57 0)
+			(at 68.58 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +6741,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 63.5 115.57 0)
+			(at 63.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +6755,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "TP8")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5992,15 +6763,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 30.48 129.54 0)
+		(at 30.48 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0527018b-3244-43c9-925f-d8a897ea6061")
-		(property "Reference" "TP7"
-			(at 31.75 128.2699 0)
+		(property "Reference" "TP5"
+			(at 31.75 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6009,7 +6780,7 @@
 			)
 		)
 		(property "Value" "1IN+"
-			(at 31.75 130.8099 0)
+			(at 31.75 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,8 +6788,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 35.56 129.54 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +6798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 129.54 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6807,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 30.48 129.54 0)
+			(at 30.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +6821,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "TP7")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -6059,15 +6830,15 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 231.14 50.8 0)
+		(at 231.14 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "06c8080f-6744-442a-86ed-d6ed68eb6797")
-		(property "Reference" "#PWR026"
-			(at 231.14 57.15 0)
+		(property "Reference" "#PWR04"
+			(at 231.14 53.34 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6076,7 +6847,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 54.61 0)
+			(at 231.14 50.8 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6084,7 +6855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 50.8 0)
+			(at 231.14 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +6864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 50.8 0)
+			(at 231.14 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +6873,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 50.8 0)
+			(at 231.14 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,91 +6887,24 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR026")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 77.47 193.04 0)
-		(mirror y)
+		(lib_id "Device:C")
+		(at 242.57 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "08ac265f-1be5-4a2a-bc94-37e4f68b2a03")
-		(property "Reference" "#PWR021"
-			(at 77.47 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4805755-821a-4013-bed0-e826dfa182b6")
-		)
-		(instances
-			(project "SurgicalLightBoostConverterModule"
-				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 22.86 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bcb7848-ed3a-4ffa-9b0e-650e1b73ff36")
-		(property "Reference" "R6"
-			(at 25.4 126.9999 0)
+		(uuid "07885ddd-7a4f-4dfa-b24c-627650e30ffc")
+		(property "Reference" "C8"
+			(at 246.38 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,8 +6912,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 25.4 129.5399 0)
+		(property "Value" "0.1uF"
+			(at 246.38 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,8 +6921,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 21.082 128.27 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 243.5352 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6931,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 128.27 0)
+			(at 242.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 242.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9960645-77fd-49e2-b22c-d286f58004c2")
+		)
+		(pin "1"
+			(uuid "72f958a1-f8fc-49ed-b5dc-946ed80f0e11")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 22.86 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bcb7848-ed3a-4ffa-9b0e-650e1b73ff36")
+		(property "Reference" "R12"
+			(at 25.4 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 25.4 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 21.082 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +7010,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 22.86 128.27 0)
+			(at 22.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +7027,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R6")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6261,7 +7035,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 39.37 48.26 0)
+		(at 39.37 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6270,7 +7044,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e6b118b-7cb4-4934-ae92-8c84b1190b6f")
 		(property "Reference" "C1"
-			(at 43.18 46.9899 0)
+			(at 43.18 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,7 +7053,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 43.18 49.5299 0)
+			(at 43.18 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,7 +7062,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 40.3352 52.07 0)
+			(at 40.3352 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,7 +7071,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 48.26 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6306,7 +7080,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 39.37 48.26 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +7105,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 166.37 270)
+		(at 44.45 162.56 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6339,8 +7113,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f5171cb-4d61-40d2-b703-3665c51e7c52")
-		(property "Reference" "R14"
-			(at 44.45 160.02 90)
+		(property "Reference" "R20"
+			(at 44.45 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +7122,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 44.45 162.56 90)
+			(at 44.45 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +7130,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 44.45 168.148 90)
+			(at 44.45 164.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +7139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 166.37 0)
+			(at 44.45 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +7148,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 44.45 166.37 0)
+			(at 44.45 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +7165,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R14")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6399,7 +7173,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 83.82 90.17 0)
+		(at 83.82 86.36 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6407,8 +7181,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "111613a6-e062-4a7e-87e0-b8bf1a743177")
-		(property "Reference" "TP4"
-			(at 82.55 88.8999 0)
+		(property "Reference" "TP1"
+			(at 82.55 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +7191,7 @@
 			)
 		)
 		(property "Value" "PWM"
-			(at 82.55 91.4399 0)
+			(at 82.55 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,8 +7199,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 78.74 90.17 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 78.74 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +7209,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 90.17 0)
+			(at 78.74 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +7218,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 83.82 90.17 0)
+			(at 83.82 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +7232,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6466,7 +7240,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 58.42 168.91 0)
+		(at 58.42 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6475,7 +7249,7 @@
 		(fields_autoplaced yes)
 		(uuid "124cc22b-42c4-4fd0-92ad-8881048c80ab")
 		(property "Reference" "U3"
-			(at 58.42 158.75 0)
+			(at 58.42 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +7257,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 58.42 161.29 0)
+			(at 58.42 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +7265,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 58.42 168.91 0)
+			(at 58.42 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +7274,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 58.42 168.91 0)
+			(at 58.42 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +7283,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 58.42 168.91 0)
+			(at 58.42 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,17 +7325,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 200.66 35.56 270)
+		(lib_id "power:GND")
+		(at 39.37 191.77 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1821b45f-36f1-4183-8dd7-9faea97cceb5")
-		(property "Reference" "#PWR016"
-			(at 196.85 35.56 0)
+		(uuid "13d75f1b-9346-4473-98cb-05a7d380b9c6")
+		(property "Reference" "#PWR026"
+			(at 39.37 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,17 +7344,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
-			(at 204.47 35.5599 90)
+		(property "Value" "GND"
+			(at 39.37 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 35.56 0)
+			(at 39.37 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +7362,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 35.56 0)
+			(at 39.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9511d7d5-a7eb-4b59-aedb-32c87022a374")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 200.66 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1821b45f-36f1-4183-8dd7-9faea97cceb5")
+		(property "Reference" "#PWR02"
+			(at 196.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 204.47 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +7438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 200.66 35.56 0)
+			(at 200.66 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,73 +7452,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "183a1d13-9af0-4ffe-a563-ab28a4bd08fd")
-		(property "Reference" "#PWR06"
-			(at 130.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be20f974-53fc-4e7e-8c79-26c5faf6a687")
-		)
-		(instances
-			(project "SurgicalLightBoostConverterModule"
-				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6685,7 +7460,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC337")
-		(at 90.17 83.82 90)
+		(at 90.17 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6693,8 +7468,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18d015ef-c0c0-4f9d-8bfc-90af22012260")
-		(property "Reference" "Q1"
-			(at 90.17 74.93 90)
+		(property "Reference" "Q3"
+			(at 90.17 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6702,7 +7477,7 @@
 			)
 		)
 		(property "Value" "BC337"
-			(at 90.17 77.47 90)
+			(at 90.17 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +7485,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 92.075 78.74 0)
+			(at 92.075 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +7496,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
-			(at 90.17 83.82 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +7506,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
-			(at 90.17 83.82 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +7526,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "Q1")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6759,7 +7534,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 29.21 50.8 90)
+		(at 29.21 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6767,8 +7542,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ce58239-9bc5-4d60-a48e-4338ebdb2863")
-		(property "Reference" "D4"
-			(at 31.75 49.4665 90)
+		(property "Reference" "D3"
+			(at 31.75 45.6565 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6777,7 +7552,7 @@
 			)
 		)
 		(property "Value" "LED Green"
-			(at 31.75 52.0065 90)
+			(at 31.75 48.1965 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6786,7 +7561,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 29.21 50.8 90)
+			(at 29.21 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +7570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 50.8 90)
+			(at 29.21 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +7579,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 29.21 50.8 0)
+			(at 29.21 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,7 +7596,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6829,7 +7604,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 77.47 177.8 0)
+		(at 77.47 173.99 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6839,7 +7614,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fa90e4f-95dd-4044-be12-142af3afd086")
 		(property "Reference" "RV2"
-			(at 80.01 176.5299 0)
+			(at 80.01 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +7623,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 80.01 179.0699 0)
+			(at 80.01 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,7 +7632,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 77.47 177.8 0)
+			(at 77.47 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,7 +7641,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/PV36W103C01B00/666502"
-			(at 77.47 177.8 0)
+			(at 77.47 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6875,7 +7650,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 77.47 177.8 0)
+			(at 77.47 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +7678,7 @@
 	)
 	(symbol
 		(lib_id "Diode:PMEG045V150EPD")
-		(at 119.38 35.56 180)
+		(at 119.38 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6912,7 +7687,7 @@
 		(fields_autoplaced yes)
 		(uuid "241c557c-29de-4dcb-bbb7-11f18fb5b64c")
 		(property "Reference" "D1"
-			(at 119.6975 29.21 0)
+			(at 119.6975 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,7 +7695,7 @@
 			)
 		)
 		(property "Value" "PMEG045V150EPD"
-			(at 119.6975 31.75 0)
+			(at 119.6975 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +7703,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:Nexperia_CFP15_SOT-1289"
-			(at 119.38 31.115 0)
+			(at 119.38 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,7 +7712,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG045V150EPD.pdf"
-			(at 119.38 35.56 0)
+			(at 119.38 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6946,7 +7721,7 @@
 			)
 		)
 		(property "Description" "45V, 15A low Vf MEGA Schottky barrier rectifier, SOT-1289"
-			(at 119.38 35.56 0)
+			(at 119.38 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,8 +7748,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 95.25 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2626458b-679c-4c34-a4b5-8d388773e6d6")
+		(property "Reference" "#PWR024"
+			(at 95.25 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12f1f3f3-f72d-4a92-b5b4-fb079d1207a0")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 175.26 151.13 0)
+		(at 190.5 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6982,8 +7823,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a61c9ad-438c-40f7-8354-16cfa5f55ae3")
-		(property "Reference" "R5"
-			(at 177.8 149.8599 0)
+		(property "Reference" "R17"
+			(at 193.04 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,7 +7833,7 @@
 			)
 		)
 		(property "Value" "3K9"
-			(at 177.8 152.3999 0)
+			(at 193.04 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +7842,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 173.482 151.13 90)
+			(at 188.722 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +7851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 151.13 0)
+			(at 190.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,7 +7860,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 175.26 151.13 0)
+			(at 190.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7877,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R5")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7044,7 +7885,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 24.13 35.56 90)
+		(at 24.13 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7052,8 +7893,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d974acf-eabf-45b8-952d-3d486350ca3b")
-		(property "Reference" "#PWR010"
-			(at 27.94 35.56 0)
+		(property "Reference" "#PWR01"
+			(at 27.94 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +7903,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 20.32 35.5599 90)
+			(at 20.32 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7912,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 35.56 0)
+			(at 24.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,7 +7921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 35.56 0)
+			(at 24.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,7 +7930,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 24.13 35.56 0)
+			(at 24.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7944,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR010")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7111,7 +7952,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 121.92 0)
+		(at 115.57 118.11 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7120,8 +7961,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30939979-17db-4761-9348-c39562f62c79")
-		(property "Reference" "R17"
-			(at 97.79 120.6499 0)
+		(property "Reference" "R10"
+			(at 113.03 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +7971,7 @@
 			)
 		)
 		(property "Value" "9.1K"
-			(at 97.79 123.1899 0)
+			(at 113.03 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +7980,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 102.108 121.92 90)
+			(at 117.348 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,7 +7989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 121.92 0)
+			(at 115.57 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,7 +7998,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.33 121.92 0)
+			(at 115.57 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +8015,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R17")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7182,7 +8023,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 72.39 35.56 90)
+		(at 72.39 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7191,7 +8032,7 @@
 		(fields_autoplaced yes)
 		(uuid "328000d3-54e5-4208-9fbd-0797db448d12")
 		(property "Reference" "L1"
-			(at 72.39 30.48 90)
+			(at 72.39 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,7 +8040,7 @@
 			)
 		)
 		(property "Value" "68uH 11.4A"
-			(at 72.39 33.02 90)
+			(at 72.39 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +8048,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_THT:L_Radial_D29.8mm_P29.30mm_Murata_1400series"
-			(at 72.39 35.56 0)
+			(at 72.39 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +8057,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/1140_series.pdf"
-			(at 72.39 35.56 0)
+			(at 72.39 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +8066,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 72.39 35.56 0)
+			(at 72.39 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7250,7 +8091,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC327")
-		(at 144.78 128.27 0)
+		(at 160.02 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7258,7 +8099,7 @@
 		(dnp no)
 		(uuid "366274b1-68ff-4907-b58c-7dace3044f64")
 		(property "Reference" "Q5"
-			(at 149.86 126.9999 0)
+			(at 165.1 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7267,7 +8108,7 @@
 			)
 		)
 		(property "Value" "BC327"
-			(at 149.86 129.5399 0)
+			(at 165.1 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7276,7 +8117,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 149.86 130.175 0)
+			(at 165.1 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7287,7 +8128,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
-			(at 144.78 128.27 0)
+			(at 160.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,7 +8138,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
-			(at 144.78 128.27 0)
+			(at 160.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,17 +8166,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 147.32 106.68 0)
+		(at 162.56 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "392160a4-57bc-4360-a8cc-c6ddc5f3843e")
-		(property "Reference" "#PWR024"
-			(at 147.32 110.49 0)
+		(property "Reference" "#PWR011"
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +8184,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 147.32 101.6 0)
+			(at 162.56 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,7 +8192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 106.68 0)
+			(at 162.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7361,7 +8201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 106.68 0)
+			(at 162.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7370,7 +8210,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 147.32 106.68 0)
+			(at 162.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7384,7 +8224,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR024")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7392,7 +8232,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
-		(at 97.79 58.42 90)
+		(at 97.79 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7401,7 +8241,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e5c0bb7-523e-4092-8213-20568c463e46")
 		(property "Reference" "Q2"
-			(at 97.79 49.53 90)
+			(at 97.79 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +8249,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 97.79 52.07 90)
+			(at 97.79 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,7 +8257,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 99.695 53.34 0)
+			(at 99.695 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +8268,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 101.6 53.34 0)
+			(at 101.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,7 +8278,7 @@
 			)
 		)
 		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 97.79 58.42 0)
+			(at 97.79 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,7 +8306,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 226.06 71.12 90)
+		(at 226.06 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7475,7 +8315,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f20b0ae-6ea1-4039-97a8-2ab4158fa214")
 		(property "Reference" "H4"
-			(at 224.79 64.77 90)
+			(at 224.79 60.96 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7483,7 +8323,7 @@
 			)
 		)
 		(property "Value" "M3 Hole"
-			(at 224.79 67.31 90)
+			(at 224.79 63.5 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7491,7 +8331,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
-			(at 226.06 71.12 0)
+			(at 226.06 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +8340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 71.12 0)
+			(at 226.06 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7509,7 +8349,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 226.06 71.12 0)
+			(at 226.06 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +8371,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 22.86 118.11 0)
+		(at 22.86 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7540,7 +8380,7 @@
 		(fields_autoplaced yes)
 		(uuid "445b393b-8b17-4478-92f8-f95399ae192c")
 		(property "Reference" "RV1"
-			(at 20.32 116.8399 0)
+			(at 20.32 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +8389,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 20.32 119.3799 0)
+			(at 20.32 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,7 +8398,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 22.86 118.11 0)
+			(at 22.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +8407,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/PV36W103C01B00/666502"
-			(at 22.86 118.11 0)
+			(at 22.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +8416,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 22.86 118.11 0)
+			(at 22.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,15 +8445,15 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 231.14 39.37 0)
+		(at 231.14 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "48f9291d-952f-4a31-9c69-6a24e9297079")
-		(property "Reference" "#PWR027"
-			(at 231.14 45.72 0)
+		(property "Reference" "#PWR03"
+			(at 231.14 41.91 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7622,7 +8462,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 43.18 0)
+			(at 231.14 39.37 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7630,7 +8470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 39.37 0)
+			(at 231.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +8479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 39.37 0)
+			(at 231.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +8488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 39.37 0)
+			(at 231.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +8502,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR027")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7670,7 +8510,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 146.05 0)
+		(at 115.57 142.24 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7679,8 +8519,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c73a077-a4d5-428b-ab96-60fc4cd05002")
-		(property "Reference" "#PWR023"
-			(at 100.33 152.4 0)
+		(property "Reference" "#PWR020"
+			(at 115.57 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7689,7 +8529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 151.13 0)
+			(at 115.57 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,7 +8537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 146.05 0)
+			(at 115.57 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,7 +8546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 146.05 0)
+			(at 115.57 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7715,7 +8555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 146.05 0)
+			(at 115.57 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +8569,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR023")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7737,7 +8577,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
-		(at 107.95 46.99 90)
+		(at 107.95 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7745,8 +8585,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5032538e-8d50-472e-ad3d-065665367eaf")
-		(property "Reference" "Q4"
-			(at 107.95 38.1 90)
+		(property "Reference" "Q1"
+			(at 107.95 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7754,7 +8594,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 107.95 40.64 90)
+			(at 107.95 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,7 +8602,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 109.855 41.91 0)
+			(at 109.855 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7773,7 +8613,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 111.76 41.91 0)
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,7 +8623,7 @@
 			)
 		)
 		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 107.95 46.99 0)
+			(at 107.95 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,7 +8643,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "Q4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7811,7 +8651,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 181.61 0)
+		(at 17.78 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7819,8 +8659,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5106c994-e56f-4179-9efb-84637f73ff72")
-		(property "Reference" "#PWR014"
-			(at 19.05 187.96 0)
+		(property "Reference" "#PWR025"
+			(at 17.78 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +8669,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 186.69 0)
+			(at 17.78 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7837,7 +8677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 181.61 0)
+			(at 17.78 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7846,7 +8686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 181.61 0)
+			(at 17.78 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7855,7 +8695,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 181.61 0)
+			(at 17.78 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7869,7 +8709,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR014")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7877,7 +8717,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 184.15 151.13 0)
+		(at 199.39 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7885,8 +8725,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52385c85-5c4c-4cde-9e63-34098699b16a")
-		(property "Reference" "C7"
-			(at 187.96 149.8599 0)
+		(property "Reference" "C9"
+			(at 203.2 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7895,7 +8735,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 187.96 152.3999 0)
+			(at 203.2 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,7 +8744,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 185.1152 154.94 0)
+			(at 200.3552 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7913,7 +8753,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 151.13 0)
+			(at 199.39 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +8762,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 184.15 151.13 0)
+			(at 199.39 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,7 +8779,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7947,7 +8787,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 226.06 48.26 90)
+		(at 226.06 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7956,7 +8796,7 @@
 		(fields_autoplaced yes)
 		(uuid "57bac526-74bf-42a2-ba43-9b8dbd3d4d30")
 		(property "Reference" "H2"
-			(at 224.79 41.91 90)
+			(at 224.79 38.1 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7964,7 +8804,7 @@
 			)
 		)
 		(property "Value" "M3 Hole"
-			(at 224.79 44.45 90)
+			(at 224.79 40.64 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7972,7 +8812,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
-			(at 226.06 48.26 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7981,7 +8821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 48.26 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7990,7 +8830,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 226.06 48.26 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,7 +8852,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 49.53 0)
+		(at 130.81 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8020,8 +8860,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a0f01b0-fdeb-4b1d-8d06-dd85f6ff08d5")
-		(property "Reference" "C5"
-			(at 134.62 48.2599 0)
+		(property "Reference" "C4"
+			(at 134.62 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8030,7 +8870,7 @@
 			)
 		)
 		(property "Value" "220uF"
-			(at 134.62 50.7999 0)
+			(at 134.62 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,7 +8879,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 131.7752 53.34 0)
+			(at 131.7752 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8888,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/rubycon/50ZLH220MEFC10X16/3563724"
-			(at 130.81 49.53 0)
+			(at 130.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +8897,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 49.53 0)
+			(at 130.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,73 +8914,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a24407b-c0e1-48ab-a685-eadb04468da1")
-		(property "Reference" "#PWR025"
-			(at 29.21 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.21 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de248d72-2187-44b6-90a2-6857184035b3")
-		)
-		(instances
-			(project "SurgicalLightBoostConverterModule"
-				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR025")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8148,7 +8922,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 165.1 35.56 90)
+		(at 165.1 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8156,7 +8930,7 @@
 		(dnp no)
 		(uuid "5d1b3a6b-d889-44c8-879e-9ba80a278852")
 		(property "Reference" "F1"
-			(at 165.1 29.21 90)
+			(at 165.1 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,15 +8938,15 @@
 			)
 		)
 		(property "Value" "12A"
-			(at 165.1 31.75 90)
+			(at 165.1 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 165.1 37.338 90)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 165.1 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,8 +8954,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 165.1 35.56 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bel-fuse-inc/0685H9120-01/5466706"
+			(at 165.1 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8190,7 +8964,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 165.1 35.56 0)
+			(at 165.1 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +8989,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 19.05 165.1 0)
+		(at 17.78 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8223,8 +8997,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65988926-4ac7-4e7f-ada8-8497d852a4f0")
-		(property "Reference" "R4"
-			(at 21.59 163.8299 0)
+		(property "Reference" "R19"
+			(at 20.32 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +9007,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 21.59 166.3699 0)
+			(at 20.32 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +9016,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 17.272 165.1 90)
+			(at 16.002 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,7 +9025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 165.1 0)
+			(at 17.78 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +9034,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 19.05 165.1 0)
+			(at 17.78 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,7 +9051,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R4")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8285,17 +9059,16 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 100.33 106.68 0)
+		(at 115.57 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "698d77bc-3de2-4bdd-b194-e940a6e37544")
-		(property "Reference" "#PWR022"
-			(at 100.33 110.49 0)
+		(property "Reference" "#PWR010"
+			(at 115.57 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8304,7 +9077,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 100.33 101.6 0)
+			(at 115.57 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8312,7 +9085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 106.68 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8321,7 +9094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 106.68 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8330,7 +9103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 100.33 106.68 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8344,7 +9117,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR022")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8352,7 +9125,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 64.77 48.26 0)
+		(at 64.77 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8361,7 +9134,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b97afd2-4d54-4f9b-85bd-456f02833019")
 		(property "Reference" "C3"
-			(at 68.58 46.9899 0)
+			(at 68.58 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +9143,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 68.58 49.5299 0)
+			(at 68.58 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +9152,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
-			(at 65.7352 52.07 0)
+			(at 65.7352 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +9161,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/rubycon/50ZLH470MEFC12-5X20/3564059"
-			(at 64.77 48.26 0)
+			(at 64.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +9170,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 64.77 48.26 0)
+			(at 64.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8422,7 +9195,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 171.45 90)
+		(at 44.45 167.64 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8430,8 +9203,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e9ca572-6472-4f05-801b-d7508e1c41b8")
-		(property "Reference" "R12"
-			(at 44.45 177.8 90)
+		(property "Reference" "R22"
+			(at 44.45 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8439,7 +9212,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 44.45 175.26 90)
+			(at 44.45 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +9220,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 44.45 169.672 90)
+			(at 44.45 165.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +9229,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 171.45 0)
+			(at 44.45 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +9238,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 44.45 171.45 0)
+			(at 44.45 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,7 +9255,72 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R12")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 95.25 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70980de6-36c0-42c1-a67b-ba71da53f0d8")
+		(property "Reference" "#PWR021"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 91.186 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01d31a33-9ba4-4967-b5e1-86f72b21dc5e")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8490,7 +9328,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 142.24 107.95 0)
+		(at 157.48 104.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8498,8 +9336,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73ef4482-2698-483b-a4df-c892e25949ba")
-		(property "Reference" "TP2"
-			(at 140.97 106.6799 0)
+		(property "Reference" "TP3"
+			(at 156.21 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8508,7 +9346,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 140.97 109.2199 0)
+			(at 156.21 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8516,8 +9354,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 137.16 107.95 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,7 +9364,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 107.95 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,7 +9373,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 142.24 107.95 0)
+			(at 157.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8549,7 +9387,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8557,7 +9395,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 116.84 0)
+		(at 129.54 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8566,8 +9404,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75129011-6bcd-4bf3-a8ff-0c2db3399c13")
-		(property "Reference" "R18"
-			(at 111.76 115.5699 0)
+		(property "Reference" "R7"
+			(at 127 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +9414,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 111.76 118.1099 0)
+			(at 127 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,7 +9423,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 116.078 116.84 90)
+			(at 131.318 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8594,7 +9432,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 116.84 0)
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8603,7 +9441,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 116.84 0)
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,7 +9458,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R18")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8628,16 +9466,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.04 35.56 90)
+		(at 193.04 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b7bca5c-5706-4571-962c-b21f7359f4e7")
 		(property "Reference" "R1"
-			(at 193.04 29.21 90)
+			(at 193.04 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8645,15 +9482,15 @@
 			)
 		)
 		(property "Value" "0R1"
-			(at 193.04 31.75 90)
+			(at 193.04 29.464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 193.04 37.338 90)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 193.04 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8661,8 +9498,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 193.04 35.56 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/isabellenhuette-usa/SMS-R100-1-0/16627446"
+			(at 193.04 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,7 +9508,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 193.04 35.56 0)
+			(at 193.04 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,7 +9533,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 139.7 0)
+		(at 162.56 135.89 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8705,8 +9542,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ba45dd5-d913-45d0-b1ce-abff40a928e9")
-		(property "Reference" "R20"
-			(at 144.78 138.4299 0)
+		(property "Reference" "R16"
+			(at 160.02 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8715,7 +9552,7 @@
 			)
 		)
 		(property "Value" "2K2"
-			(at 144.78 140.9699 0)
+			(at 160.02 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8724,7 +9561,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 149.098 139.7 90)
+			(at 164.338 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8733,7 +9570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 139.7 0)
+			(at 162.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8742,7 +9579,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 139.7 0)
+			(at 162.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8759,7 +9596,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R20")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8767,17 +9604,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 193.04 0)
-		(mirror y)
+		(at 242.57 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7fef6ba5-a826-4016-ad73-32088f502c0f")
+		(uuid "7dc63f99-1149-42bb-88db-0eca3e57abad")
 		(property "Reference" "#PWR015"
-			(at 49.53 199.39 0)
+			(at 242.57 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8786,7 +9622,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 198.12 0)
+			(at 242.57 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +9630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 193.04 0)
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +9639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 193.04 0)
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +9648,74 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 193.04 0)
+			(at 242.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eb66d90-6621-4ac5-bf83-15644506ed91")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 191.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fef6ba5-a826-4016-ad73-32088f502c0f")
+		(property "Reference" "#PWR027"
+			(at 49.53 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,7 +9729,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR015")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8834,7 +9737,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 29.21 43.18 0)
+		(at 29.21 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8842,8 +9745,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82087798-218d-4011-8af9-1ca0e143b2d6")
-		(property "Reference" "R21"
-			(at 31.75 41.9099 0)
+		(property "Reference" "R4"
+			(at 31.75 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8852,7 +9755,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 31.75 44.4499 0)
+			(at 31.75 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,7 +9764,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 27.432 43.18 90)
+			(at 27.432 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +9773,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 43.18 0)
+			(at 29.21 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,7 +9782,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 29.21 43.18 0)
+			(at 29.21 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +9799,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R21")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8904,7 +9807,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 153.67 270)
+		(at 58.42 149.86 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8913,16 +9816,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "841f768e-3b50-4fc2-b1dd-61697a5f3b60")
-		(property "Reference" "R11"
-			(at 58.42 147.32 90)
+		(property "Reference" "R18"
+			(at 58.42 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5K"
-			(at 58.42 149.86 90)
+		(property "Value" "10K"
+			(at 58.42 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +9833,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 58.42 155.448 90)
+			(at 58.42 151.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8939,7 +9842,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 153.67 0)
+			(at 58.42 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +9851,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.42 153.67 0)
+			(at 58.42 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8965,7 +9868,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R11")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8973,73 +9876,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85f464ab-c82c-4fd8-862e-cd5296d14a60")
-		(property "Reference" "#PWR05"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e54ca1be-9256-4943-9ffd-f979ce07e4b3")
-		)
-		(instances
-			(project "SurgicalLightBoostConverterModule"
-				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 58.42 0)
+		(at 173.99 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9047,8 +9884,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8843f6bf-406d-4fb7-87cd-873faaaaab92")
-		(property "Reference" "#PWR08"
-			(at 173.99 64.77 0)
+		(property "Reference" "#PWR06"
+			(at 173.99 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,7 +9894,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 63.5 0)
+			(at 173.99 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,7 +9902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 58.42 0)
+			(at 173.99 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +9911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 58.42 0)
+			(at 173.99 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,7 +9920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 58.42 0)
+			(at 173.99 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9097,7 +9934,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9105,7 +9942,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 132.08 90)
+		(at 63.5 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9113,8 +9950,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88b02e72-13ad-46d4-8ebb-dbf20d0eff84")
-		(property "Reference" "R10"
-			(at 63.5 125.73 90)
+		(property "Reference" "R14"
+			(at 63.5 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9122,7 +9959,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 63.5 128.27 90)
+			(at 63.5 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9130,7 +9967,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 63.5 133.858 90)
+			(at 63.5 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9139,7 +9976,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 132.08 0)
+			(at 63.5 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9148,7 +9985,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 132.08 0)
+			(at 63.5 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9165,7 +10002,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9173,7 +10010,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 114.3 124.46 270)
+		(at 129.54 120.65 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9182,8 +10019,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cd6373a-1ed7-467b-9012-d9fe02a067f4")
-		(property "Reference" "D2"
-			(at 111.76 123.1265 90)
+		(property "Reference" "D5"
+			(at 127 119.3165 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9192,7 +10029,7 @@
 			)
 		)
 		(property "Value" "LED Red"
-			(at 111.76 125.6665 90)
+			(at 127 121.8565 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9201,7 +10038,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 114.3 124.46 90)
+			(at 129.54 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9210,7 +10047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 124.46 90)
+			(at 129.54 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,7 +10056,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 114.3 124.46 0)
+			(at 129.54 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,7 +10073,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9244,7 +10081,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 232.41 59.69 270)
+		(at 232.41 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9252,8 +10089,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ff0c78b-9f13-4704-b33a-4a4bba955ffa")
-		(property "Reference" "#PWR028"
-			(at 228.6 59.69 0)
+		(property "Reference" "#PWR08"
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,7 +10099,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 236.22 59.6899 90)
+			(at 236.22 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9271,7 +10108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 59.69 0)
+			(at 232.41 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,7 +10117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 59.69 0)
+			(at 232.41 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,7 +10126,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 232.41 59.69 0)
+			(at 232.41 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,7 +10140,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR028")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9311,7 +10148,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 185.42 0)
+		(at 49.53 181.61 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9320,8 +10157,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93380d2d-3b13-42d7-a70e-573858392294")
-		(property "Reference" "R13"
-			(at 46.99 184.1499 0)
+		(property "Reference" "R23"
+			(at 46.99 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,8 +10166,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5K"
-			(at 46.99 186.6899 0)
+		(property "Value" "10K"
+			(at 46.99 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9339,7 +10176,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 47.752 185.42 90)
+			(at 47.752 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9348,7 +10185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 185.42 0)
+			(at 49.53 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9357,7 +10194,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 185.42 0)
+			(at 49.53 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9374,15 +10211,100 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R13")
+					(reference "R23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LMV358")
+		(at 30.48 181.61 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "976accd9-e2e5-4523-8edb-cef47d30c2c0")
+		(property "Reference" "U3"
+			(at 33.274 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 35.052 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 30.48 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 30.48 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 30.48 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "df46e8bc-0a9e-4cd7-b68b-d9e5d86af24b")
+		)
+		(pin "5"
+			(uuid "8a4262d3-9546-4650-a6f6-29e288f13b31")
+		)
+		(pin "4"
+			(uuid "6f6a415b-9984-4243-a633-ff708044f9c7")
+		)
+		(pin "8"
+			(uuid "0a5661b4-fe82-40a0-a394-349303719701")
+		)
+		(pin "1"
+			(uuid "d4651568-72b2-4075-830d-28e63d0e63d5")
+		)
+		(pin "3"
+			(uuid "bde45dcd-2b5e-4cf4-8719-5992d957c683")
+		)
+		(pin "7"
+			(uuid "84c1e4c3-35ba-4a67-9f6b-741cf1eee1b1")
+		)
+		(pin "2"
+			(uuid "9f87c7d7-ed1b-4b65-aa1b-a0655d4b1f85")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 138.43 119.38 0)
+		(at 153.67 115.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9391,8 +10313,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aad314e-daf7-4ea4-984f-4fa462311dc8")
-		(property "Reference" "R19"
-			(at 135.89 118.1099 0)
+		(property "Reference" "R9"
+			(at 151.13 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9401,7 +10323,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 135.89 120.6499 0)
+			(at 151.13 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,7 +10332,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 140.208 119.38 90)
+			(at 155.448 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,7 +10341,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 119.38 0)
+			(at 153.67 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,7 +10350,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 119.38 0)
+			(at 153.67 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,7 +10367,74 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R19")
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1adade3-32df-4254-a5c8-57835d170c84")
+		(property "Reference" "R2"
+			(at 193.04 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R1"
+			(at 193.04 37.846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 193.04 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/isabellenhuette-usa/SMS-R100-1-0/16627446"
+			(at 193.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d63836d2-5bc1-41e1-ae0a-ee763b93f864")
+		)
+		(pin "2"
+			(uuid "a828a747-53f8-4a30-b964-81291178ed4c")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9453,7 +10442,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 226.06 36.83 90)
+		(at 226.06 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9462,7 +10451,7 @@
 		(fields_autoplaced yes)
 		(uuid "a234dd71-e53a-4e6c-9897-d04de049866e")
 		(property "Reference" "H1"
-			(at 224.79 30.48 90)
+			(at 224.79 26.67 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9470,7 +10459,7 @@
 			)
 		)
 		(property "Value" "M3 Hole"
-			(at 224.79 33.02 90)
+			(at 224.79 29.21 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9478,7 +10467,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
-			(at 226.06 36.83 0)
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9487,7 +10476,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 36.83 0)
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +10485,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 226.06 36.83 0)
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9518,7 +10507,7 @@
 	)
 	(symbol
 		(lib_id "Diode:PMEG045V150EPD")
-		(at 127 128.27 0)
+		(at 142.24 124.46 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9527,8 +10516,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a30405a1-f0f5-4b11-8cf3-464392e4cf2c")
-		(property "Reference" "D3"
-			(at 126.6825 121.92 0)
+		(property "Reference" "D6"
+			(at 141.9225 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,7 +10525,7 @@
 			)
 		)
 		(property "Value" "PMEG045V150EPD"
-			(at 126.6825 124.46 0)
+			(at 141.9225 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +10533,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:Nexperia_CFP15_SOT-1289"
-			(at 127 123.825 0)
+			(at 142.24 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +10542,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG045V150EPD.pdf"
-			(at 127 128.27 0)
+			(at 142.24 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +10551,7 @@
 			)
 		)
 		(property "Description" "45V, 15A low Vf MEGA Schottky barrier rectifier, SOT-1289"
-			(at 127 128.27 0)
+			(at 142.24 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9582,7 +10571,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "D3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -9590,7 +10579,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 118.11 0)
+		(at 39.37 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9598,8 +10587,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a38994d7-1d2d-424e-b547-375914dd1184")
-		(property "Reference" "R7"
-			(at 41.91 116.8399 0)
+		(property "Reference" "R8"
+			(at 41.91 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +10597,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 41.91 119.3799 0)
+			(at 41.91 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,7 +10606,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 37.592 118.11 90)
+			(at 37.592 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,7 +10615,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 118.11 0)
+			(at 39.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9635,7 +10624,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 39.37 118.11 0)
+			(at 39.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +10641,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9660,7 +10649,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 226.06 59.69 90)
+		(at 226.06 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9669,7 +10658,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3b518a4-83f0-42cf-8f01-70476b3bb672")
 		(property "Reference" "H3"
-			(at 224.79 53.34 90)
+			(at 224.79 49.53 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9677,7 +10666,7 @@
 			)
 		)
 		(property "Value" "M3 Hole"
-			(at 224.79 55.88 90)
+			(at 224.79 52.07 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9685,7 +10674,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
-			(at 226.06 59.69 0)
+			(at 226.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +10683,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 59.69 0)
+			(at 226.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,7 +10692,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 226.06 59.69 0)
+			(at 226.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9724,8 +10713,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 172.72 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aae0ef79-97e6-4858-9360-93bfea9dfedd")
+		(property "Reference" "#PWR016"
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3053694-e27b-4996-8a3d-0a90eef7a310")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 173.99 44.45 0)
+		(at 173.99 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9734,7 +10789,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae51e4b9-f098-45ea-9a23-9e9463d48236")
 		(property "Reference" "R3"
-			(at 176.53 43.1799 0)
+			(at 176.53 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,7 +10798,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 176.53 45.7199 0)
+			(at 176.53 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9752,7 +10807,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 172.212 44.45 90)
+			(at 172.212 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,7 +10816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 44.45 0)
+			(at 173.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,7 +10825,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 44.45 0)
+			(at 173.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9795,7 +10850,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 173.99 52.07 90)
+		(at 173.99 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9803,8 +10858,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b20a9db1-f890-479d-9a2f-ad663b57371e")
-		(property "Reference" "D5"
-			(at 176.53 50.7365 90)
+		(property "Reference" "D2"
+			(at 176.53 44.3865 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9813,7 +10868,7 @@
 			)
 		)
 		(property "Value" "LED Green"
-			(at 176.53 53.2765 90)
+			(at 176.53 46.9265 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9822,7 +10877,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 173.99 52.07 90)
+			(at 173.99 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9831,7 +10886,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 52.07 90)
+			(at 173.99 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9840,7 +10895,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 173.99 52.07 0)
+			(at 173.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,7 +10912,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9865,7 +10920,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 139.7 0)
+		(at 115.57 135.89 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9874,8 +10929,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2c82a33-e605-41f8-8e3a-a553d3c885cb")
-		(property "Reference" "R16"
-			(at 97.79 138.4299 0)
+		(property "Reference" "R15"
+			(at 113.03 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9884,7 +10939,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 97.79 140.9699 0)
+			(at 113.03 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9893,7 +10948,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 102.108 139.7 90)
+			(at 117.348 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9902,7 +10957,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 139.7 0)
+			(at 115.57 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9911,7 +10966,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.33 139.7 0)
+			(at 115.57 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9928,7 +10983,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9936,7 +10991,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 128.27 0)
+		(at 39.37 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9944,8 +10999,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3bb0f4f-2690-49e9-b4b6-0919f39fdd1c")
-		(property "Reference" "R8"
-			(at 41.91 126.9999 0)
+		(property "Reference" "R13"
+			(at 41.91 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9954,7 +11009,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 41.91 129.5399 0)
+			(at 41.91 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9963,7 +11018,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 37.592 128.27 90)
+			(at 37.592 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9972,7 +11027,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 128.27 0)
+			(at 39.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9981,7 +11036,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 39.37 128.27 0)
+			(at 39.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,7 +11053,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10006,7 +11061,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 57.15 0)
+		(at 64.77 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10014,8 +11069,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6665670-3274-4f2f-ab0a-097b7f39c79f")
-		(property "Reference" "#PWR03"
-			(at 64.77 63.5 0)
+		(property "Reference" "#PWR05"
+			(at 64.77 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10024,7 +11079,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 62.23 0)
+			(at 64.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10032,7 +11087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 57.15 0)
+			(at 64.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,7 +11096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 57.15 0)
+			(at 64.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10050,7 +11105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 57.15 0)
+			(at 64.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,7 +11119,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10072,7 +11127,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 163.83 0)
+		(at 213.36 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10080,8 +11135,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcb04ad9-5529-4189-a450-e1a76f1ff2d3")
-		(property "Reference" "#PWR09"
-			(at 198.12 170.18 0)
+		(property "Reference" "#PWR023"
+			(at 213.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10090,7 +11145,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 168.91 0)
+			(at 213.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10098,7 +11153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 163.83 0)
+			(at 213.36 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10107,7 +11162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 163.83 0)
+			(at 213.36 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10116,7 +11171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 163.83 0)
+			(at 213.36 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,7 +11185,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR09")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10138,7 +11193,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 19.05 158.75 0)
+		(at 17.78 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10146,8 +11201,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be5477da-3c19-4ca5-be10-67ab81547297")
-		(property "Reference" "#PWR013"
-			(at 19.05 162.56 0)
+		(property "Reference" "#PWR022"
+			(at 17.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,7 +11211,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 19.05 153.67 0)
+			(at 17.78 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10164,7 +11219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 158.75 0)
+			(at 17.78 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +11228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 158.75 0)
+			(at 17.78 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10182,7 +11237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 19.05 158.75 0)
+			(at 17.78 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,23 +11251,111 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR013")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 74.93 153.67 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf5c44b6-7354-40aa-993a-60a781108888")
+		(property "Reference" "U3"
+			(at 73.66 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM358"
+			(at 73.66 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 74.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 74.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 74.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "b3db8f13-59e3-4a6c-91aa-5dfc91c3a3d6")
+		)
+		(pin "2"
+			(uuid "b9bbd4f4-730d-4669-8c5f-761222137c8f")
+		)
+		(pin "3"
+			(uuid "394cd092-2df5-4d45-acb8-ffa284b891b0")
+		)
+		(pin "7"
+			(uuid "6061c33d-11d1-4843-9071-8254e5b10fbe")
+		)
+		(pin "5"
+			(uuid "1e0a4402-23d9-444c-ac32-0783adf6af8c")
+		)
+		(pin "6"
+			(uuid "d436fc9b-aad9-4d37-9600-7d4a467bf33a")
+		)
+		(pin "4"
+			(uuid "5ab9bba8-bf12-4cd7-9814-6fd047501fee")
+		)
+		(pin "1"
+			(uuid "b12b68c5-e2a2-4452-a889-e0bd6cd84f0f")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 152.4 140.97 0)
+		(at 167.64 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c0841eed-d493-4f62-9089-a952bf5198f1")
-		(property "Reference" "TP3"
-			(at 153.67 139.6999 0)
+		(property "Reference" "TP6"
+			(at 168.91 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10221,7 +11364,7 @@
 			)
 		)
 		(property "Value" "DTC"
-			(at 153.67 142.2399 0)
+			(at 168.91 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10229,8 +11372,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 157.48 140.97 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 172.72 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,7 +11382,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 140.97 0)
+			(at 172.72 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10248,7 +11391,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 152.4 140.97 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10262,7 +11405,76 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "TP3")
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3ea0093-7fa6-46be-bb51-7f637bf99372")
+		(property "Reference" "C11"
+			(at 98.298 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 98.044 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 96.2152 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69fc8f41-412c-4557-8b37-db11af552146")
+		)
+		(pin "1"
+			(uuid "ad49a7ce-d6f7-42fa-9e0d-d4df769cd6b4")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10270,7 +11482,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Controller:TL494")
-		(at 198.12 132.08 0)
+		(at 213.36 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10279,7 +11491,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7822ced-6106-45bf-9a33-9a2a37351f9f")
 		(property "Reference" "U1"
-			(at 200.3141 111.76 0)
+			(at 215.5541 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10288,7 +11500,7 @@
 			)
 		)
 		(property "Value" "TL494"
-			(at 200.3141 114.3 0)
+			(at 215.5541 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10297,7 +11509,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 198.12 132.08 0)
+			(at 213.36 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10306,7 +11518,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl494.pdf"
-			(at 198.12 132.08 0)
+			(at 213.36 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10315,7 +11527,7 @@
 			)
 		)
 		(property "Description" "Pulse-Width-Modulation Control Circuits, PDIP-16/SOIC-16/TSSOP-16"
-			(at 198.12 132.08 0)
+			(at 213.36 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10382,7 +11594,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 134.62 0)
+		(at 22.86 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10391,7 +11603,7 @@
 		(fields_autoplaced yes)
 		(uuid "c92cc350-5197-491b-8c4f-fe5d80befe11")
 		(property "Reference" "#PWR018"
-			(at 22.86 140.97 0)
+			(at 22.86 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,7 +11612,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 139.7 0)
+			(at 22.86 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,7 +11620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 134.62 0)
+			(at 22.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10417,7 +11629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 134.62 0)
+			(at 22.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,7 +11638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 134.62 0)
+			(at 22.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10447,8 +11659,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 232.41 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c932ac37-4891-4a53-835e-3468f2a2735a")
+		(property "Reference" "C7"
+			(at 236.22 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 236.22 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 233.3752 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 232.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "925969f5-b751-4842-825c-a04224bdb03b")
+		)
+		(pin "1"
+			(uuid "8f2ec2b9-38fe-45b6-b721-e6075fc3d5ff")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Reference_Voltage:TL431D")
-		(at 114.3 133.35 90)
+		(at 129.54 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10456,7 +11738,7 @@
 		(dnp no)
 		(uuid "ca0d98cc-3cbc-4b92-b7c3-e8f5cef8afc6")
 		(property "Reference" "U2"
-			(at 116.84 132.0799 90)
+			(at 132.08 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10465,7 +11747,7 @@
 			)
 		)
 		(property "Value" "TL431D"
-			(at 116.84 134.6199 90)
+			(at 132.08 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10474,7 +11756,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 120.65 133.35 0)
+			(at 135.89 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,7 +11766,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 114.3 133.35 0)
+			(at 129.54 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10494,7 +11776,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, SO-8"
-			(at 114.3 133.35 0)
+			(at 129.54 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10531,7 +11813,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 69.85 0)
+		(at 97.79 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10539,8 +11821,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca33cbcc-dafa-463c-b186-592d999d09fe")
-		(property "Reference" "R2"
-			(at 100.33 68.5799 0)
+		(property "Reference" "R5"
+			(at 100.33 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10548,8 +11830,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5"
-			(at 100.33 71.1199 0)
+		(property "Value" "10"
+			(at 100.33 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10558,7 +11840,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 96.012 69.85 90)
+			(at 96.012 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10567,7 +11849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 69.85 0)
+			(at 97.79 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10576,7 +11858,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 69.85 0)
+			(at 97.79 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,73 +11875,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cac859e6-84ae-4971-aa37-bf7df5262403")
-		(property "Reference" "#PWR02"
-			(at 52.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47705979-aec7-4b44-ad64-8a48a3fc9512")
-		)
-		(instances
-			(project "SurgicalLightBoostConverterModule"
-				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR02")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10667,7 +11883,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 143.51 49.53 0)
+		(at 143.51 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10675,8 +11891,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccad4a62-64c3-4f0e-9534-d87eda16ac7e")
-		(property "Reference" "C4"
-			(at 147.32 48.2599 0)
+		(property "Reference" "C5"
+			(at 147.32 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10685,7 +11901,7 @@
 			)
 		)
 		(property "Value" "220uF"
-			(at 147.32 50.7999 0)
+			(at 147.32 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10694,7 +11910,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 144.4752 53.34 0)
+			(at 144.4752 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10703,7 +11919,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/rubycon/50ZLH220MEFC10X16/3563724"
-			(at 143.51 49.53 0)
+			(at 143.51 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10712,7 +11928,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 143.51 49.53 0)
+			(at 143.51 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10729,7 +11945,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10737,7 +11953,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 49.53 0)
+		(at 156.21 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10746,7 +11962,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1ee7ac6-79aa-4713-b5d0-85bfc3fdd13f")
 		(property "Reference" "C6"
-			(at 160.02 48.2599 0)
+			(at 160.02 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10755,7 +11971,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 160.02 50.7999 0)
+			(at 160.02 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10764,7 +11980,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 157.1752 53.34 0)
+			(at 157.1752 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10773,7 +11989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 49.53 0)
+			(at 156.21 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10782,7 +11998,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 156.21 49.53 0)
+			(at 156.21 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10807,7 +12023,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 232.41 71.12 270)
+		(at 232.41 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10815,8 +12031,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2599c3a-c668-431e-afe8-e2c74c8d7d9b")
-		(property "Reference" "#PWR029"
-			(at 228.6 71.12 0)
+		(property "Reference" "#PWR09"
+			(at 228.6 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10825,7 +12041,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 236.22 71.1199 90)
+			(at 236.22 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10834,7 +12050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 71.12 0)
+			(at 232.41 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10843,7 +12059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 71.12 0)
+			(at 232.41 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10852,7 +12068,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 232.41 71.12 0)
+			(at 232.41 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10866,7 +12082,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR029")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10874,15 +12090,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 26.67 176.53 0)
+		(at 25.4 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d6aa5ae1-1833-43fc-9751-8578d9606f98")
-		(property "Reference" "TP6"
-			(at 27.94 175.2599 0)
+		(property "Reference" "TP7"
+			(at 26.67 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,7 +12107,7 @@
 			)
 		)
 		(property "Value" "2IN-"
-			(at 27.94 177.7999 0)
+			(at 26.67 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10899,8 +12115,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 31.75 176.53 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 30.48 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10909,7 +12125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 176.53 0)
+			(at 30.48 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10918,7 +12134,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 26.67 176.53 0)
+			(at 25.4 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10932,40 +12148,42 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 52.07 123.19 90)
+		(lib_id "Device:C")
+		(at 85.09 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da6570a4-5211-46ca-bab6-d51f5dc774e3")
-		(property "Reference" "R9"
-			(at 52.07 116.84 90)
+		(uuid "d6ffc2a3-3b04-4528-8a3d-b1c42386a293")
+		(property "Reference" "C10"
+			(at 88.9 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 52.07 119.38 90)
+		(property "Value" "1uF"
+			(at 88.9 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 52.07 124.968 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 86.0552 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10974,7 +12192,144 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 123.19 0)
+			(at 85.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4bf7c69-138e-4d01-8e7b-69545c1b25b0")
+		)
+		(pin "1"
+			(uuid "e9b6c809-e5b3-4592-a90e-d7c21c38d336")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 172.72 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da2fa6e0-5499-4535-8a38-bf0629b515f7")
+		(property "Reference" "D4"
+			(at 168.402 111.252 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED Green"
+			(at 164.846 112.776 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 172.72 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "352b3e89-8974-40d7-b24b-6983a5d38df8")
+		)
+		(pin "1"
+			(uuid "989e54e2-a0ed-4761-b105-221471e01b1d")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6570a4-5211-46ca-bab6-d51f5dc774e3")
+		(property "Reference" "R11"
+			(at 52.07 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 52.07 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 52.07 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +12338,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 52.07 123.19 0)
+			(at 52.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11000,73 +12355,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 39.37 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df6cb4a5-6da7-4033-8228-34b1da38be55")
-		(property "Reference" "#PWR01"
-			(at 39.37 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8107957c-2c63-4212-b5df-8ac935da3166")
-		)
-		(instances
-			(project "SurgicalLightBoostConverterModule"
-				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR01")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11074,7 +12363,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 39.37 107.95 0)
+		(at 39.37 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11082,8 +12371,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfe67272-0075-4b5a-9c8e-aaffba78ffda")
-		(property "Reference" "#PWR019"
-			(at 39.37 111.76 0)
+		(property "Reference" "#PWR014"
+			(at 39.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11092,7 +12381,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 39.37 102.87 0)
+			(at 39.37 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11100,7 +12389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 107.95 0)
+			(at 39.37 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11109,7 +12398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 107.95 0)
+			(at 39.37 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11118,7 +12407,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 39.37 107.95 0)
+			(at 39.37 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,7 +12421,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR019")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11140,7 +12429,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC327")
-		(at 105.41 83.82 270)
+		(at 105.41 80.01 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11148,8 +12437,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2723003-454c-41a7-b689-16699611307b")
-		(property "Reference" "Q3"
-			(at 105.41 74.93 90)
+		(property "Reference" "Q4"
+			(at 105.41 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11157,7 +12446,7 @@
 			)
 		)
 		(property "Value" "BC327"
-			(at 105.41 77.47 90)
+			(at 105.41 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11165,7 +12454,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 103.505 78.74 0)
+			(at 103.505 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +12465,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
-			(at 105.41 83.82 0)
+			(at 105.41 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11186,7 +12475,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
-			(at 105.41 83.82 0)
+			(at 105.41 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11206,7 +12495,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -11214,7 +12503,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 187.96 0)
+		(at 77.47 184.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11223,8 +12512,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e48e2190-d59c-4300-ae72-c5e79fe06e5e")
-		(property "Reference" "R15"
-			(at 74.93 186.6899 0)
+		(property "Reference" "R24"
+			(at 74.93 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11233,7 +12522,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 74.93 189.2299 0)
+			(at 74.93 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11242,7 +12531,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 79.248 187.96 90)
+			(at 79.248 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11251,7 +12540,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 187.96 0)
+			(at 77.47 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11260,7 +12549,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 187.96 0)
+			(at 77.47 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11277,7 +12566,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R15")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -11285,7 +12574,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 58.42 0)
+		(at 120.65 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11293,8 +12582,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e66b9c2f-981a-4154-9d06-7656a78567a1")
-		(property "Reference" "#PWR04"
-			(at 120.65 64.77 0)
+		(property "Reference" "#PWR07"
+			(at 120.65 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11303,7 +12592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 63.5 0)
+			(at 120.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11311,7 +12600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 58.42 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11320,7 +12609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 58.42 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11329,7 +12618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 58.42 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11343,7 +12632,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11351,7 +12640,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 19.05 175.26 0)
+		(at 17.78 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11359,8 +12648,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6e86a0d-446c-4a91-bd98-057f19d60d7d")
-		(property "Reference" "R1"
-			(at 21.59 173.9899 0)
+		(property "Reference" "R21"
+			(at 20.32 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11369,7 +12658,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 21.59 176.5299 0)
+			(at 20.32 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11378,7 +12667,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 17.272 175.26 90)
+			(at 16.002 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11387,7 +12676,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 175.26 0)
+			(at 17.78 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11396,7 +12685,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 19.05 175.26 0)
+			(at 17.78 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11413,7 +12702,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "R1")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11421,15 +12710,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 109.22 107.95 0)
+		(at 124.46 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e8ebbbec-7dd9-46e5-a0c1-389bad3566fb")
-		(property "Reference" "TP1"
-			(at 110.49 106.6799 0)
+		(property "Reference" "TP2"
+			(at 125.73 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11438,7 +12727,7 @@
 			)
 		)
 		(property "Value" "24V"
-			(at 110.49 109.2199 0)
+			(at 125.73 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11446,8 +12735,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 107.95 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11456,7 +12745,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 107.95 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11465,7 +12754,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 107.95 0)
+			(at 124.46 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11479,7 +12768,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11487,7 +12776,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 22.86 107.95 0)
+		(at 22.86 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11495,8 +12784,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e93b36b3-dfbc-435f-b0d8-3d315e29cf28")
-		(property "Reference" "#PWR017"
-			(at 22.86 111.76 0)
+		(property "Reference" "#PWR013"
+			(at 22.86 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,7 +12794,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 22.86 102.87 0)
+			(at 22.86 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11513,7 +12802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 107.95 0)
+			(at 22.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11522,7 +12811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 107.95 0)
+			(at 22.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11531,7 +12820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 22.86 107.95 0)
+			(at 22.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11545,7 +12834,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR017")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11553,7 +12842,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 52.07 48.26 0)
+		(at 52.07 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11562,7 +12851,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee2040d5-17e1-40fe-8927-83cd5f9a2f9a")
 		(property "Reference" "C2"
-			(at 55.88 46.9899 0)
+			(at 55.88 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11571,7 +12860,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 55.88 49.5299 0)
+			(at 55.88 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11580,7 +12869,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
-			(at 53.0352 52.07 0)
+			(at 53.0352 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11589,7 +12878,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/rubycon/50ZLH470MEFC12-5X20/3564059"
-			(at 52.07 48.26 0)
+			(at 52.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11598,7 +12887,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 52.07 48.26 0)
+			(at 52.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11622,8 +12911,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 167.64 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eee74d47-9754-4de5-84d0-2074d9fa00fe")
+		(property "Reference" "R6"
+			(at 167.64 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 167.64 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 167.64 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84335e19-e4fe-49ea-a400-b332737bc36d")
+		)
+		(pin "2"
+			(uuid "b4ef2d1f-e659-4b07-bb4d-ac81b14327c9")
+		)
+		(instances
+			(project "SurgicalLightBoostConverterModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
-		(at 179.07 132.08 90)
+		(at 194.31 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11631,8 +12988,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0860abc-6034-452c-8ceb-24ac06649baf")
-		(property "Reference" "#PWR012"
-			(at 182.88 132.08 0)
+		(property "Reference" "#PWR017"
+			(at 198.12 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11641,7 +12998,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 175.26 132.0799 90)
+			(at 190.5 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11650,7 +13007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 132.08 0)
+			(at 194.31 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11659,7 +13016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 132.08 0)
+			(at 194.31 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11668,7 +13025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 179.07 132.08 0)
+			(at 194.31 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +13039,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR012")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11690,7 +13047,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 134.62 0)
+		(at 39.37 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11698,8 +13055,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5674532-a13a-4b2f-be47-ddfe11b47cd2")
-		(property "Reference" "#PWR020"
-			(at 39.37 140.97 0)
+		(property "Reference" "#PWR019"
+			(at 39.37 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11708,7 +13065,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 139.7 0)
+			(at 39.37 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11716,7 +13073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 134.62 0)
+			(at 39.37 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11725,7 +13082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 134.62 0)
+			(at 39.37 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11734,7 +13091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 134.62 0)
+			(at 39.37 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11748,73 +13105,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5c3abc5-abe4-4d30-86c6-7c70be259442")
-		(property "Reference" "#PWR07"
-			(at 156.21 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f3989ec-0125-4b12-a35e-7d55750e2d06")
-		)
-		(instances
-			(project "SurgicalLightBoostConverterModule"
-				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11822,7 +13113,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 198.12 105.41 0)
+		(at 213.36 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11830,8 +13121,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb7b9901-21f1-4f8f-825f-d7148074b477")
-		(property "Reference" "#PWR011"
-			(at 198.12 109.22 0)
+		(property "Reference" "#PWR012"
+			(at 213.36 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11840,7 +13131,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 198.12 100.33 0)
+			(at 213.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11848,7 +13139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 105.41 0)
+			(at 213.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11857,7 +13148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 105.41 0)
+			(at 213.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,7 +13157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 198.12 105.41 0)
+			(at 213.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,7 +13171,7 @@
 		(instances
 			(project "SurgicalLightBoostConverterModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
