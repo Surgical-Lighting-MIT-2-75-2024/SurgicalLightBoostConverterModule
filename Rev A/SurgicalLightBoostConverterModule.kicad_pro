@@ -562,7 +562,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "boost_converter_module_gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
