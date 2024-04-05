@@ -361,7 +361,11 @@
 			(at -0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 15 "/1IN-")
 			(pintype "passive")
 			(uuid "7dfc0cc5-a1db-49c9-962f-8a4b423d567e")
@@ -370,7 +374,11 @@
 			(at 0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 17 "/FB")
 			(pintype "passive")
 			(uuid "743b2089-eb77-4d04-a687-a44d2f68af5e")
@@ -571,7 +579,11 @@
 			(at -0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 14 "Net-(U2-REF)")
 			(pintype "passive")
 			(uuid "2d8a2013-a916-40b0-94e6-51d193331a7c")
@@ -781,7 +793,11 @@
 			(at -0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 13 "+5V")
 			(pintype "passive")
 			(uuid "5e91ddf3-fd38-4211-af55-b9ef44772624")
@@ -790,7 +806,11 @@
 			(at 0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 42 "Net-(R12-Pad1)")
 			(pintype "passive")
 			(uuid "995b7cf2-fbcf-43a3-8554-8bcb7e1b49e9")
@@ -1815,7 +1835,11 @@
 			(at -0.9125 0 270)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 20 "/2IN-")
 			(pintype "passive")
 			(uuid "2772a81d-b41a-43fc-b1a6-8e9531cb5d24")
@@ -2025,7 +2049,11 @@
 			(at -0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 37 "Net-(Q1-E)")
 			(pintype "passive")
 			(uuid "639400cb-5983-4a78-9f9f-c8e3946be9d1")
@@ -2034,7 +2062,11 @@
 			(at 0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 39 "Net-(Q4-G)")
 			(pintype "passive")
 			(uuid "5cef5edc-ac48-4eaa-a0f6-1ff145d8894a")
@@ -2235,7 +2267,11 @@
 			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 8 "/CS+")
 			(pintype "passive")
 			(uuid "d58a6608-9fb5-40e1-ac62-e833c4006894")
@@ -2244,7 +2280,11 @@
 			(at 0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 23 "Net-(D8-A)")
 			(pintype "passive")
 			(uuid "22dcc042-75a5-460f-a521-48b6210e9257")
@@ -5126,7 +5166,11 @@
 			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 19 "Net-(U3A-+)")
 			(pintype "passive")
 			(uuid "a5cd66f3-1b33-4747-b7bf-9c83e0791ca7")
@@ -5135,7 +5179,11 @@
 			(at 0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 8 "/CS+")
 			(pintype "passive")
 			(uuid "d9422f4b-fb2d-40fe-8b45-9a9b482dfc8f")
@@ -5546,7 +5594,11 @@
 			(at -0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 13 "+5V")
 			(pintype "passive")
 			(uuid "ec2da3df-f5e9-4db5-bcac-cdb4c0ae1039")
@@ -5555,7 +5607,11 @@
 			(at 0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 7 "Net-(D7-A)")
 			(pintype "passive")
 			(uuid "d6fdd667-9db2-45f3-8f38-4da4afd9b2bf")
@@ -7072,7 +7128,11 @@
 			(at -0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 38 "Net-(Q2-E)")
 			(pintype "passive")
 			(uuid "7f3f470f-2b5c-4673-9a6d-fc9d13499c4e")
@@ -7081,7 +7141,11 @@
 			(at 0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 40 "Net-(Q5-G)")
 			(pintype "passive")
 			(uuid "33128c89-89ae-4603-ab8d-83d4cc3935dd")
@@ -7492,7 +7556,11 @@
 			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 22 "/2IN+")
 			(pintype "passive")
 			(uuid "7a890110-b52b-49ad-9be1-c03fda2cc7de")
@@ -7711,7 +7779,11 @@
 			(at 0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 6 "Net-(D4-A)")
 			(pintype "passive")
 			(uuid "21420980-23e0-47f3-b090-d99f26011a68")
@@ -8122,7 +8194,11 @@
 			(at -0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 26 "/CS-")
 			(pintype "passive")
 			(uuid "450a2041-ff65-4799-be06-d230163d1c08")
@@ -8131,7 +8207,11 @@
 			(at 0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 5 "Net-(D3-A)")
 			(pintype "passive")
 			(uuid "2b7b7298-2cc8-458c-a713-91d3aaa0fb84")
@@ -8390,7 +8470,11 @@
 			(uuid "c4d57d02-c916-4a88-800f-b6786c9100f5")
 		)
 		(fp_text user "${REFERENCE}"
+<<<<<<< HEAD
 			(at 0 -3 -90)
+=======
+			(at 0 -3 270)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(layer "F.Fab")
 			(uuid "76301d97-2a0b-4379-b91c-40e6fa6799b8")
 			(effects
@@ -9680,7 +9764,11 @@
 			(at -0.9125 0 270)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 12 "/DTC")
 			(pintype "passive")
 			(uuid "ceb8d358-e24a-4468-8576-507d3e04d53c")
@@ -11039,7 +11127,11 @@
 			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 16 "/1IN+")
 			(pintype "passive")
 			(uuid "6d6f8e74-0bc3-4965-98de-72e7d4e652b0")
@@ -11536,7 +11628,11 @@
 			(uuid "4580fedf-5957-4e90-82d7-5e94adb7229b")
 		)
 		(fp_text user "${REFERENCE}"
+<<<<<<< HEAD
 			(at 0 -3 -90)
+=======
+			(at 0 -3 270)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(layer "F.Fab")
 			(uuid "be324c58-d0fe-44aa-83ea-5dcef75977c4")
 			(effects
@@ -11982,7 +12078,11 @@
 			(at -0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 42 "Net-(R12-Pad1)")
 			(pintype "passive")
 			(uuid "66651430-1d91-4fa8-b6b4-d4e0a1a8000c")
@@ -11991,7 +12091,11 @@
 			(at 0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 15 "/1IN-")
 			(pintype "passive")
 			(uuid "0dae4b63-b840-4050-80d1-e5d1fca9531c")
@@ -12411,7 +12515,11 @@
 			(at 0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 21 "Net-(U3A--)")
 			(pintype "passive")
 			(uuid "f9148ee9-a1c4-48b6-8470-1002a551d050")
@@ -12966,7 +13074,11 @@
 			(at -0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 13 "+5V")
 			(pintype "passive")
 			(uuid "cbcef5e0-cf00-4af5-821a-a60359988cd1")
@@ -12975,7 +13087,11 @@
 			(at 0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 20 "/2IN-")
 			(pintype "passive")
 			(uuid "7be8b98d-f04e-4585-b295-23b527aed11e")
@@ -13176,7 +13292,11 @@
 			(at -0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 11 "Net-(Q3-E)")
 			(pintype "passive")
 			(uuid "4ac531f2-1557-4b25-bda8-e467faaa4a09")
@@ -13185,7 +13305,11 @@
 			(at 0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 41 "Net-(Q6-G)")
 			(pintype "passive")
 			(uuid "a9715124-f5d1-46eb-92b6-b65bd8170627")
@@ -15700,7 +15824,11 @@
 			(at -0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 13 "+5V")
 			(pintype "passive")
 			(uuid "8e61be74-e2b4-488d-9ec1-263735a853e4")
@@ -15709,7 +15837,11 @@
 			(at 0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 25 "Net-(Q10-B)")
 			(pintype "passive")
 			(uuid "5a1b955a-a2e2-4b23-ad65-770167fe57c2")
@@ -17282,7 +17414,11 @@
 			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 8 "/CS+")
 			(pintype "passive")
 			(uuid "b089ce4e-6a19-4f4c-bacf-3b1d467506ef")
@@ -17291,7 +17427,11 @@
 			(at 0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 14 "Net-(U2-REF)")
 			(pintype "passive")
 			(uuid "46428c71-b024-4fc8-8364-45a9bfbe8f3d")
@@ -18630,7 +18770,11 @@
 			(uuid "93f252a1-92ca-433c-8136-af57d7a88f76")
 		)
 		(fp_text user "${REFERENCE}"
+<<<<<<< HEAD
 			(at 0 -3 -90)
+=======
+			(at 0 -3 270)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(layer "F.Fab")
 			(uuid "b4bacc81-300a-483a-ae84-d334bc273db2")
 			(effects
@@ -18900,7 +19044,11 @@
 			(at -2.9625 0 270)
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.2040816327)
+=======
+			(roundrect_rratio 0.204082)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 8 "/CS+")
 			(pintype "passive")
 			(uuid "ef1e116a-b224-49a5-a02f-889b3fd7684d")
@@ -18909,7 +19057,11 @@
 			(at 2.9625 0 270)
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.2040816327)
+=======
+			(roundrect_rratio 0.204082)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 26 "/CS-")
 			(pintype "passive")
 			(uuid "aaf1cfae-69cb-4543-bdcc-d599cd9454fa")
@@ -19096,7 +19248,11 @@
 			(uuid "00dd970c-2433-4b18-bb58-35f335d6ae0a")
 		)
 		(fp_text user "${REFERENCE}"
+<<<<<<< HEAD
 			(at 0 0 0)
+=======
+			(at 0 0 360)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(layer "F.Fab")
 			(uuid "b662e0bc-7545-49f7-81a9-fb843b4f6a3a")
 			(effects
@@ -22143,7 +22299,11 @@
 			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 26 "/CS-")
 			(pintype "passive")
 			(uuid "5ca1fec2-d20a-4ada-9abd-13a83db573b6")
@@ -22152,7 +22312,11 @@
 			(at 0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 21 "Net-(U3A--)")
 			(pintype "passive")
 			(uuid "41d98634-5da3-46d0-a743-b46315759cb1")
@@ -23378,7 +23542,11 @@
 			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 43 "Net-(R19-Pad1)")
 			(pintype "passive")
 			(uuid "4a7eeafa-9c6a-43ae-878e-ad9e3c0eb948")
@@ -23387,7 +23555,11 @@
 			(at 0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 19 "Net-(U3A-+)")
 			(pintype "passive")
 			(uuid "209eceda-b90a-4028-9219-b02ace6abd55")
@@ -26093,7 +26265,11 @@
 			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 42 "Net-(R12-Pad1)")
 			(pintype "passive")
 			(uuid "3f7fb0e2-593f-40fc-8932-d0452ac0d588")
@@ -26747,7 +26923,11 @@
 			(uuid "aed69fde-f631-42c0-8243-97b8fcec3254")
 		)
 		(fp_text user "${REFERENCE}"
+<<<<<<< HEAD
 			(at 0 -3 -90)
+=======
+			(at 0 -3 270)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(layer "F.Fab")
 			(uuid "6adf3ef4-f7ca-4ba4-9763-fdd8436e81be")
 			(effects
@@ -27017,7 +27197,11 @@
 			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+<<<<<<< HEAD
 			(roundrect_rratio 0.243902439)
+=======
+			(roundrect_rratio 0.243902)
+>>>>>>> 20eabad441982245ba6699a6f09cf190ab4c7cc9
 			(net 18 "Net-(U1-RT)")
 			(pintype "passive")
 			(uuid "0e2b0698-dfd2-49b4-a127-04cfbaa13a94")
