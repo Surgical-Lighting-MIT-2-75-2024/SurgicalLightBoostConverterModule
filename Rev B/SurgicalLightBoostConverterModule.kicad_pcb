@@ -1754,7 +1754,7 @@
 		(at 76 74)
 		(descr "wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm")
 		(tags "test point wire loop bead")
-		(property "Reference" "TP7"
+		(property "Reference" "5V"
 			(at 0 3 0)
 			(layer "F.SilkS")
 			(uuid "c6ea3e27-a992-47e3-8de1-acdfe1987e06")
@@ -1891,7 +1891,7 @@
 			(uuid "13f20823-44e5-4912-80a7-a42dc3ec01c3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.7 2.5 0)
+			(at 0 3 0)
 			(layer "F.Fab")
 			(uuid "267a639f-9fa8-4cd7-90ea-873b280da79d")
 			(effects
@@ -5580,8 +5580,8 @@
 		(at 138.5 66.5)
 		(descr "wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm")
 		(tags "test point wire loop bead")
-		(property "Reference" "TP14"
-			(at 0.7 2.5 0)
+		(property "Reference" "CS-"
+			(at 0 3 0)
 			(layer "F.SilkS")
 			(uuid "f0a4fdac-60e1-4ad0-be45-4f6fa5e57be1")
 			(effects
@@ -5717,7 +5717,7 @@
 			(uuid "3acf624b-1e5d-497c-875e-0a002ba55c42")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.7 2.5 0)
+			(at 0 3 0)
 			(layer "F.Fab")
 			(uuid "b2f7f8b8-9741-4acc-bb07-8fdf31ab2905")
 			(effects
@@ -8126,8 +8126,8 @@
 		(at 138.75 99.25)
 		(descr "wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm")
 		(tags "test point wire loop bead")
-		(property "Reference" "TP13"
-			(at 0.7 2.5 0)
+		(property "Reference" "2IN-"
+			(at 0.25 2.75 0)
 			(layer "F.SilkS")
 			(uuid "60a3a905-8f7e-4716-aeb1-7f08db1e604f")
 			(effects
@@ -8263,7 +8263,7 @@
 			(uuid "1ba3a178-a7ab-46cc-bb96-597d5335a941")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.7 2.5 0)
+			(at 0.25 2.75 0)
 			(layer "F.Fab")
 			(uuid "1dce3d19-267e-4c5c-86a0-2ca60684f575")
 			(effects
@@ -11167,7 +11167,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at -0.1625 -1.75 0)
+			(at -1.4125 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "aac86f06-2197-492a-bec6-724c30656c22")
 			(effects
@@ -11178,7 +11178,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 -2 0)
+			(at -0.4125 -2.5 0)
 			(layer "F.Fab")
 			(uuid "aefce1ec-9363-4a9f-9587-ef0084a23384")
 			(effects
@@ -11586,7 +11586,7 @@
 		(at 94.46 86)
 		(descr "Through hole straight pin header, 2x01, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x01 2.54mm double row")
-		(property "Reference" "JP6"
+		(property "Reference" "DTC"
 			(at -3.46 1 0)
 			(layer "F.SilkS")
 			(uuid "ebe80924-2c6e-48f1-8334-6cdf18668e3f")
@@ -12080,7 +12080,7 @@
 		(at 114.5 78 180)
 		(descr "Through hole straight pin header, 2x01, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x01 2.54mm double row")
-		(property "Reference" "JP7"
+		(property "Reference" "2IN-"
 			(at 1.27 -2.5 180)
 			(layer "F.SilkS")
 			(uuid "c2a631d1-8ab6-4a6e-ae9a-41e3a9c9f582")
@@ -12716,8 +12716,8 @@
 		(at 94.46 78)
 		(descr "Through hole straight pin header, 2x01, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x01 2.54mm double row")
-		(property "Reference" "JP3"
-			(at -3.46 1 0)
+		(property "Reference" "1IN-"
+			(at -3.96 -2 0)
 			(layer "F.SilkS")
 			(uuid "760c8ffc-8da0-45ed-82da-9b1aef9229b7")
 			(effects
@@ -17026,7 +17026,7 @@
 		(at 114.54 73.5 180)
 		(descr "Through hole straight pin header, 2x01, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x01 2.54mm double row")
-		(property "Reference" "JP8"
+		(property "Reference" "2IN+"
 			(at 1.54 2.5 180)
 			(layer "F.SilkS")
 			(uuid "6170b32c-a344-43fd-b2f8-986037e536b5")
@@ -18874,7 +18874,7 @@
 		(at 94.46 82)
 		(descr "Through hole straight pin header, 2x01, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x01 2.54mm double row")
-		(property "Reference" "JP5"
+		(property "Reference" "FB"
 			(at -3.46 -0.5 0)
 			(layer "F.SilkS")
 			(uuid "c32f4eba-6d4e-43ad-b187-abe678f5edb2")
@@ -19158,8 +19158,8 @@
 		(at 25.5 47.5)
 		(descr "wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm")
 		(tags "test point wire loop bead")
-		(property "Reference" "TP5"
-			(at 0.7 2.5 0)
+		(property "Reference" "12V"
+			(at 0 3 0)
 			(layer "F.SilkS")
 			(uuid "a7f3c90e-acc1-4475-a71f-4aaf98d230dc")
 			(effects
@@ -19295,7 +19295,7 @@
 			(uuid "0f4a7b24-9547-4264-93e8-0eb446601475")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.7 2.5 0)
+			(at 0 3 0)
 			(layer "F.Fab")
 			(uuid "020fcca1-393a-4f6a-9df7-208141203fb4")
 			(effects
@@ -19544,8 +19544,8 @@
 		(at 94.46 74)
 		(descr "Through hole straight pin header, 2x01, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x01 2.54mm double row")
-		(property "Reference" "JP2"
-			(at -3.46 0 0)
+		(property "Reference" "1IN+"
+			(at -3.96 0 0)
 			(layer "F.SilkS")
 			(uuid "fad9e5c6-9ba1-4d07-942e-973d80c165cd")
 			(effects
@@ -24408,8 +24408,8 @@
 		(at 138.5 60)
 		(descr "wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm")
 		(tags "test point wire loop bead")
-		(property "Reference" "TP12"
-			(at 0.7 2.5 0)
+		(property "Reference" "CS+"
+			(at 0 3 0)
 			(layer "F.SilkS")
 			(uuid "3e3f8e7f-dae0-4e22-947e-c4b70fc684aa")
 			(effects
@@ -24545,7 +24545,7 @@
 			(uuid "a026dd61-7bcc-4462-bffb-43a3472d4ea8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.7 2.5 0)
+			(at 0 3 0)
 			(layer "F.Fab")
 			(uuid "73f6242c-3f03-4118-8139-fcb0c25162ea")
 			(effects
@@ -28985,8 +28985,8 @@
 		(at 146.5 25)
 		(descr "wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm")
 		(tags "test point wire loop bead")
-		(property "Reference" "TP6"
-			(at 0.7 2.5 0)
+		(property "Reference" "24V"
+			(at 0 3 0)
 			(layer "F.SilkS")
 			(uuid "9cad8e3f-bd2f-47b4-b4c3-80ad4558bae8")
 			(effects
@@ -29122,7 +29122,7 @@
 			(uuid "136338eb-b1fd-4b2e-8c73-c3396bfb3202")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.7 2.5 0)
+			(at 0 3 0)
 			(layer "F.Fab")
 			(uuid "af6cdbe2-dbea-4580-bbf9-e05399726ca7")
 			(effects
@@ -29161,8 +29161,8 @@
 		(at 118.5 95.5)
 		(descr "wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm")
 		(tags "test point wire loop bead")
-		(property "Reference" "TP10"
-			(at 0.7 2.5 0)
+		(property "Reference" "PWM"
+			(at 0 3 0)
 			(layer "F.SilkS")
 			(uuid "c16069ee-449f-4118-abb0-02ed76ac0c9c")
 			(effects
@@ -29298,7 +29298,7 @@
 			(uuid "eee6ba9f-dc18-458f-8235-c34f5b322642")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.7 2.5 0)
+			(at 0 3 0)
 			(layer "F.Fab")
 			(uuid "0f1d250a-91ee-489e-a80a-8b34af9c537c")
 			(effects
@@ -29665,8 +29665,8 @@
 		(at 138.5 92.5)
 		(descr "wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm")
 		(tags "test point wire loop bead")
-		(property "Reference" "TP15"
-			(at 0.7 2.5 0)
+		(property "Reference" "2IN+"
+			(at 0 3 0)
 			(layer "F.SilkS")
 			(uuid "bb388b61-b324-4614-a3b7-d7a492508f5d")
 			(effects
@@ -29802,7 +29802,7 @@
 			(uuid "138a7c8d-dec6-4d7e-9411-9c8818b7337a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.7 2.5 0)
+			(at 0 3 0)
 			(layer "F.Fab")
 			(uuid "ad4a038a-4c89-4422-a81e-33512a60ce18")
 			(effects
